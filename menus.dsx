@@ -1,0 +1,2400 @@
+﻿<DAZStudioActionMgr Version="1.3.0.0">
+ <CurrentActionList>
+  <Action Class="DzMeshSmoothAction"/>
+  <Action Class="DzRemoveMeshSmoothAction"/>
+  <Action Class="DzAudioAction"/>
+  <Action Class="DzDeleteAction"/>
+  <Action Class="DzDeleteAllCamerasAction"/>
+  <Action Class="DzDeleteAllLightsAction"/>
+  <Action Class="DzDevicesAction"/>
+  <Action Class="DzExitAction"/>
+  <Action Class="DzExportAction"/>
+  <Action Class="DzImportAction"/>
+  <Action Class="DzMergeAction"/>
+  <Action Class="DzNewAction"/>
+  <Action Class="DzOpenAction"/>
+  <Action Class="DzPreferencesAction"/>
+  <Action Class="DzRedoAction"/>
+  <Action Class="DzSaveAction"/>
+  <Action Class="DzUndoAction"/>
+  <Action Class="DzClearRecentFilesAction"/>
+  <Action Class="DzFitToAction"/>
+  <Action Class="DzChangeParentAction"/>
+  <Action Class="DzRenderAction"/>
+  <Action Class="DzRenderSettingsAction"/>
+  <Action Class="DzRenderSettingsShowHiddenAction"/>
+  <Action Class="DzRenderSettingsRestoreDefaultsAction"/>
+  <Action Class="DzSaveLastRenderAction"/>
+  <Action Class="DzSaveLastDrawAction"/>
+  <Action Class="DzWelcomeHomeAction"/>
+  <Action Class="DzQuickStartGuideAction"/>
+  <Action Class="DzUserGuideAction"/>
+  <Action Class="DzReferenceGuideAction"/>
+  <Action Class="DzVideoTutorialsAction"/>
+  <Action Class="DzLaunchHelpBrowserAction"/>
+  <Action Class="DzWhatsThisAction"/>
+  <Action Class="DzFrequentQuestionsAction"/>
+  <Action Class="DzDAZTutorialsAction"/>
+  <Action Class="DzDAZWebSiteAction"/>
+  <Action Class="DzDAZGalleriesAction"/>
+  <Action Class="DzDAZForumsAction"/>
+  <Action Class="DzDAZNewUserHelpForumAction"/>
+  <Action Class="DzReportABugAction"/>
+  <Action Class="DzRegisterDAZStudioAction"/>
+  <Action Class="DzAboutDAZStudioAction"/>
+  <Action Class="DzAboutPluginsAction"/>
+  <Action Class="DzAboutHardwareAction"/>
+  <Action Class="DzLogFileAction"/>
+  <Action Class="DzDAZLoginAction"/>
+  <Action Class="DzWorkOfflineAction"/>
+  <Action Class="DzUpdateMetadataAction"/>
+  <Action Class="DzDAZMyAccountAction"/>
+  <Action Class="DzDAZMyGalleryAction"/>
+  <Action Class="DzDAZMyCartAction"/>
+  <Action Class="DzDAZMyWishlistAction"/>
+  <Action Class="DzSelectLayoutAction"/>
+  <Action Class="DzSaveLayoutAction"/>
+  <Action Class="DzDeleteLayoutAction"/>
+  <Action Class="DzCustomColorsAction"/>
+  <Action Class="DzDeleteStyleAction"/>
+  <Action Class="DzSaveStyleAction"/>
+  <Action Class="DzSelectStyleAction"/>
+  <Action Class="DzActivityAction0"/>
+  <Action Class="DzActivityAction1"/>
+  <Action Class="DzActivityAction2"/>
+  <Action Class="DzActivityAction3"/>
+  <Action Class="DzActivityAction4"/>
+  <Action Class="DzActivityAction5"/>
+  <Action Class="DzActivityAction6"/>
+  <Action Class="DzActivityAction7"/>
+  <Action Class="DzActivityAction8"/>
+  <Action Class="DzActivityAction9"/>
+  <Action Class="Dz2Bottom1TopAction"/>
+  <Action Class="Dz2Left1RightAction"/>
+  <Action Class="Dz2Right1LeftAction"/>
+  <Action Class="Dz2Top1BottomAction"/>
+  <Action Class="Dz3Bottom1TopAction"/>
+  <Action Class="Dz3Left1RightAction"/>
+  <Action Class="Dz3Right1LeftAction"/>
+  <Action Class="Dz3Top1BottomAction"/>
+  <Action Class="DzBackViewAction"/>
+  <Action Class="DzBottomViewAction"/>
+  <Action Class="DzFourViewsAction"/>
+  <Action Class="DzFrontViewAction"/>
+  <Action Class="DzLeftViewAction"/>
+  <Action Class="DzPerspectiveViewAction"/>
+  <Action Class="DzRightViewAction"/>
+  <Action Class="DzSideBySideAction"/>
+  <Action Class="DzSingleViewAction"/>
+  <Action Class="DzTopAndBottomAction"/>
+  <Action Class="DzTopViewAction"/>
+  <Action Class="DzWireBoxStyleAction"/>
+  <Action Class="DzSolidBoxStyleAction"/>
+  <Action Class="DzWireframeStyleAction"/>
+  <Action Class="DzHiddenLineStyleAction"/>
+  <Action Class="DzLitWireframeStyleAction"/>
+  <Action Class="DzWireShadedStyleAction"/>
+  <Action Class="DzSmoothShadedStyleAction"/>
+  <Action Class="DzTexturedStyleAction"/>
+  <Action Class="DzWireTexturedStyleAction"/>
+  <Action Class="DzCartoonStyleAction"/>
+  <Action Class="DzOffScreenPaneGroupsAction"/>
+  <Action Class="DzLockUIAction"/>
+  <Action Class="DzToggleActivityBarAction"/>
+  <Action Class="DzToggleOrientTabsAlongTopAction"/>
+  <Action Class="DzToggleLessonStripShowAction"/>
+  <Action Class="DzAlwaysOnTopAction"/>
+  <Action Class="DzFullScreenAction"/>
+  <Action Class="DzPreviewLightsAction"/>
+  <Action Class="DzLessonRecordAction"/>
+  <Action Class="DzIKClearPinAction"/>
+  <Action Class="DzIKClearPinsAction"/>
+  <Action Class="DzIKConvertToFKAction"/>
+  <Action Class="DzIKEnableHardPinsAction"/>
+  <Action Class="DzIKEnableIKAction"/>
+  <Action Class="DzIKEnablePinsAction"/>
+  <Action Class="DzIKPinBothAction"/>
+  <Action Class="DzIKPinRotationAction"/>
+  <Action Class="DzIKPinTranslationAction"/>
+  <Action Class="DzViewControlKeyNavAction"/>
+  <Action Class="DzDollyCameraUpAction"/>
+  <Action Class="DzDollyCameraDownAction"/>
+  <Action Class="DzDollyCameraForwardAction"/>
+  <Action Class="DzDollyCameraBackAction"/>
+  <Action Class="DzDollyCameraLeftAction"/>
+  <Action Class="DzDollyCameraRightAction"/>
+  <Action Class="DzIncreaseCameraDollyFactorAction"/>
+  <Action Class="DzDecreaseCameraDollyFactorAction"/>
+  <Action Class="DzResetCameraDollyFactorAction"/>
+  <Action Class="DzRotateCameraUpAction"/>
+  <Action Class="DzRotateCameraDownAction"/>
+  <Action Class="DzRotateCameraLeftAction"/>
+  <Action Class="DzRotateCameraRightAction"/>
+  <Action Class="DzBankCameraLeftAction"/>
+  <Action Class="DzBankCameraRightAction"/>
+  <Action Class="DzIncreaseCameraRotateFactorAction"/>
+  <Action Class="DzDecreaseCameraRotateFactorAction"/>
+  <Action Class="DzResetCameraRotateFactorAction"/>
+  <Action Class="DzLevelCameraRotateAction"/>
+  <Action Class="DzIncreaseCameraLevelFactorAction"/>
+  <Action Class="DzDecreaseCameraLevelFactorAction"/>
+  <Action Class="DzResetCameraLevelFactorAction"/>
+  <Action Class="DzLevelCameraSnapAction"/>
+  <Action Class="DzAimCameraAction"/>
+  <Action Class="DzFrameCameraAction"/>
+  <Action Class="DzResetCameraAction"/>
+  <Action Class="DzPointAtAction"/>
+  <Action Class="DzNextToolAction"/>
+  <Action Class="DzPreviousToolAction"/>
+  <Action Class="Dz3DBrushEaseInAction"/>
+  <Action Class="Dz3DBrushEaseInOutAction"/>
+  <Action Class="Dz3DBrushEaseOutAction"/>
+  <Action Class="Dz3DBrushGrad2Action"/>
+  <Action Class="Dz3DBrushGrad3Action"/>
+  <Action Class="Dz3DBrushGrad4Action"/>
+  <Action Class="Dz3DBrushGradEaseInAction"/>
+  <Action Class="Dz3DBrushGradEaseInOutAction"/>
+  <Action Class="Dz3DBrushGradEaseOutAction"/>
+  <Action Class="Dz3DBrushGradientApplyAction"/>
+  <Action Class="Dz3DBrushGradientFlipAction"/>
+  <Action Class="Dz3DBrushGradientModeAction"/>
+  <Action Class="Dz3DBrushGradientSnapAction"/>
+  <Action Class="Dz3DBrushGradLinearAction"/>
+  <Action Class="Dz3DBrushLinearAction"/>
+  <Action Class="Dz3DBrushPaintModeAction"/>
+  <Action Class="Dz3DBrushSelectModeAction"/>
+  <Action Class="Dz3DBrushSmoothModeAction"/>
+  <Action Class="Dz3DBrushSphereGradientModeAction"/>
+  <Action Class="Dz3DBrushFacetSelectionTypeAction"/>
+  <Action Class="Dz3DBrushEdgeSelectionTypeAction"/>
+  <Action Class="Dz3DBrushVertexSelectionTypeAction"/>
+  <Action Class="DzWeightMapBrushColorsAction"/>
+  <Action Class="DzWeightMapBrushCopyAction"/>
+  <Action Class="DzWeightMapBrushDisplayBoolAction"/>
+  <Action Class="DzWeightMapBrushDisplayPointsAction"/>
+  <Action Class="DzWeightMapBrushDisplayOffAction"/>
+  <Action Class="DzWeightMapBrushDisplayValueAction"/>
+  <Action Class="DzWeightMapBrushFillAction"/>
+  <Action Class="DzWeightMapBrushPasteAction"/>
+  <Action Class="DzWeightMapBrushSmoothAction"/>
+  <Action Class="DzWeightMapBrushAttenuateAction"/>
+  <Action Class="DzFacetDragSelectionAction"/>
+  <Action Class="DzFacetHideAllAction"/>
+  <Action Class="DzFacetHideInvertAction"/>
+  <Action Class="DzFacetHideSelectedAction"/>
+  <Action Class="DzFacetHideUnSelectedAction"/>
+  <Action Class="DzFacetLassoSelectionAction"/>
+  <Action Class="DzFacetLockAllAction"/>
+  <Action Class="DzFacetLockInvertAction"/>
+  <Action Class="DzFacetLockSelectedAction"/>
+  <Action Class="DzFacetRectangleSelectionAction"/>
+  <Action Class="DzFacetSelAllAction"/>
+  <Action Class="DzFacetSelClearAction"/>
+  <Action Class="DzFacetSelConnectedAction"/>
+  <Action Class="DzFacetSelGrowAction"/>
+  <Action Class="DzFacetSelInvertAction"/>
+  <Action Class="DzFacetSelShrinkAction"/>
+  <Action Class="DzFacetShowAllAction"/>
+  <Action Class="DzFacetUnlockAllAction"/>
+  <Action Class="DzFacetSelReverseWindingOrderAction"/>
+  <Action Class="DzFacetSelFacetLoopAction"/>
+  <Action Class="DzFacetSelBoundaryAction"/>
+  <Action Class="DzFacetSelConvertToFacetSelectionAction"/>
+  <Action Class="DzFacetSelConvertToEdgeSelectionAction"/>
+  <Action Class="DzFacetSelConvertToVertexSelectionAction"/>
+  <Action Class="DzSimpleWorkflowActorsModeAction"/>
+  <Action Class="DzSimpleWorkflowHairModeAction"/>
+  <Action Class="DzSimpleWorkflowWardrobeModeAction"/>
+  <Action Class="DzMyFaceAction"/>
+  <Action Class="DzRandomizeShapeAction"/>
+  <Action Class="DzHPCloseAllAction"/>
+  <Action Class="DzHPCloseSelectedAction"/>
+  <Action Class="DzHPCloseFromSelectedAction"/>
+  <Action Class="DzHPExpandAllAction"/>
+  <Action Class="DzHPExpandSelectedAction"/>
+  <Action Class="DzHPExpandFromSelectedAction"/>
+  <Action Class="DzHPInvertSelectionAction"/>
+  <Action Class="DzHPNoSortAction"/>
+  <Action Class="DzHPSelectAllAction"/>
+  <Action Class="DzHPClearSelectionAction"/>
+  <Action Class="DzHPSelectChildrenAction"/>
+  <Action Class="DzHPDeselectChildrenAction"/>
+  <Action Class="DzHPSelectCamerasAction"/>
+  <Action Class="DzHPSelectDFormsAction"/>
+  <Action Class="DzHPSelectFiguresAction"/>
+  <Action Class="DzHPSelectLightsAction"/>
+  <Action Class="DzHPSelectObjectsAction"/>
+  <Action Class="DzHPShowCamerasAction"/>
+  <Action Class="DzHPShowDFormsAction"/>
+  <Action Class="DzHPShowFiguresAction"/>
+  <Action Class="DzHPShowHiddenAction"/>
+  <Action Class="DzHPShowIKAction"/>
+  <Action Class="DzHPShowLightsAction"/>
+  <Action Class="DzHPShowObjectsAction"/>
+  <Action Class="DzHPSortAscendAction"/>
+  <Action Class="DzHPSortDescendAction"/>
+  <Action Class="DzHPTogglePIPAction"/>
+  <Action Class="DzHPSceneIDEditorAction"/>
+  <Action Class="DzHPNodeElementDataEditorAction"/>
+  <Action Class="DzHPLockBoneOrderAction"/>
+  <Action Class="DzHPOrderNodesMoveUpAction"/>
+  <Action Class="DzHPOrderNodesMoveToTopAction"/>
+  <Action Class="DzHPOrderNodesMoveDownAction"/>
+  <Action Class="DzHPOrderNodesMoveToBottomAction"/>
+  <Action Class="DzClearPropertyNewAction"/>
+  <Action Class="DzCLDirectoryManagerAction"/>
+  <Action Class="DzCLDatabaseMigrationAction"/>
+  <Action Class="DzCLContentSearchAction"/>
+  <Action Class="DzCLEditPreferencesAction"/>
+  <Action Class="DzCLStopCMSAction"/>
+  <Action Class="DzCLStartCMSAction"/>
+  <Action Class="DzCLExportProductMetadataAction"/>
+  <Action Class="DzCLInstallOfflinePackagesAction"/>
+  <Action Class="DzCRMAlwaysReplaceContentAction"/>
+  <Action Class="DzCRMAskToReplaceContentAction"/>
+  <Action Class="DzCRMNeverReplaceContentAction"/>
+  <Action Class="DzRLDirectoryManagerAction"/>
+  <Action Class="DzCopyMaterialAction"/>
+  <Action Class="DzPasteMaterialAction"/>
+  <Action Class="DzSRFShowHiddenAction"/>
+  <Action Class="DzSRFExpandAllAction"/>
+  <Action Class="DzSRFExpandAllSelectedAction"/>
+  <Action Class="DzSRFCollapseAllAction"/>
+  <Action Class="DzSRFCollapseAllSelectedAction"/>
+  <Action Class="DzSRFLockSelectedAction"/>
+  <Action Class="DzSRFUnLockSelectedAction"/>
+  <Action Class="DzSRFHideSelectedAction"/>
+  <Action Class="DzSRFUnHideSelectedAction"/>
+  <Action Class="DzSRFDisplaySelectedAction"/>
+  <Action Class="DzSRFDisplaySelectedWithFitAction"/>
+  <Action Class="DzSRFDisplayAllAction"/>
+  <Action Class="DzEditMaterialSelectionSetsAction"/>
+  <Action Class="DzAutoRefreshImagesAction"/>
+  <Action Class="DzLoadUVSetAction"/>
+  <Action Class="DzRefreshImagesAction"/>
+  <Action Class="DzClearKeysFigureAction"/>
+  <Action Class="DzClearKeysFigureShapeAction"/>
+  <Action Class="DzClearKeysFigurePoseAction"/>
+  <Action Class="DzClearKeysPoseAction"/>
+  <Action Class="DzClearKeysSelectedItemsAction"/>
+  <Action Class="DzClearKeysShapeAction"/>
+  <Action Class="DzCollapseAllAction"/>
+  <Action Class="DzCollapseAllSelectedAction"/>
+  <Action Class="DzCopyFigureAction"/>
+  <Action Class="DzCopyNodeAction"/>
+  <Action Class="DzExpandAllAction"/>
+  <Action Class="DzExpandAllSelectedAction"/>
+  <Action Class="DzHideSelectedAction"/>
+  <Action Class="DzLimitsOffAction"/>
+  <Action Class="DzLimitsOnAction"/>
+  <Action Class="DzLockShapeAction"/>
+  <Action Class="DzLockNodeAction"/>
+  <Action Class="DzLockPoseAction"/>
+  <Action Class="DzLockSelectedAction"/>
+  <Action Class="DzMemorizeFigureAction"/>
+  <Action Class="DzMemorizeFigureShapeAction"/>
+  <Action Class="DzMemorizeFigurePoseAction"/>
+  <Action Class="DzMemorizePoseAction"/>
+  <Action Class="DzMemorizeSelectedItemsAction"/>
+  <Action Class="DzMemorizeShapeAction"/>
+  <Action Class="DzMoveToFloorAction"/>
+  <Action Class="DzPasteFigureAction"/>
+  <Action Class="DzPasteFigureMorphAction"/>
+  <Action Class="DzPasteFigurePoseAction"/>
+  <Action Class="DzPasteNodeAction"/>
+  <Action Class="DzPasteNodeMorphAction"/>
+  <Action Class="DzPasteNodePoseAction"/>
+  <Action Class="DzDuplicateNodeAction"/>
+  <Action Class="DzDuplicateNodeHierarchyAction"/>
+  <Action Class="DzRestoreFigureAction"/>
+  <Action Class="DzRestoreFigureShapeAction"/>
+  <Action Class="DzRestoreFigurePoseAction"/>
+  <Action Class="DzRestorePoseAction"/>
+  <Action Class="DzRestoreSelectedItemsAction"/>
+  <Action Class="DzRestoreShapeAction"/>
+  <Action Class="DzSymmetryAction"/>
+  <Action Class="DzBakeToTransformsAction"/>
+  <Action Class="DzUnHideSelectedAction"/>
+  <Action Class="DzUnlockShapeAction"/>
+  <Action Class="DzUnlockNodeAction"/>
+  <Action Class="DzUnlockPoseAction"/>
+  <Action Class="DzUnLockSelectedAction"/>
+  <Action Class="DzZeroFigureAction"/>
+  <Action Class="DzZeroFigureShapeAction"/>
+  <Action Class="DzZeroFigurePoseAction"/>
+  <Action Class="DzZeroPoseAction"/>
+  <Action Class="DzZeroSelectedItemsAction"/>
+  <Action Class="DzZeroShapeAction"/>
+  <Action Class="DzSideNavAddFavoriteSelectedAction"/>
+  <Action Class="DzSideNavRemoveFavoriteSelectedAction"/>
+  <Action Class="DzSideNavLockSelectedAction"/>
+  <Action Class="DzSideNavUnLockSelectedAction"/>
+  <Action Class="DzSideNavHideSelectedAction"/>
+  <Action Class="DzSideNavUnHideSelectedAction"/>
+  <Action Class="DzSideNavCollapseAllAction"/>
+  <Action Class="DzSideNavCollapseAllSelectedAction"/>
+  <Action Class="DzSideNavExpandAllAction"/>
+  <Action Class="DzSideNavExpandAllSelectedAction"/>
+  <Action Class="DzSideNavClearPropertyNewAction"/>
+  <Action Class="DzSideNavCanAutoFollowSelectedAction"/>
+  <Action Class="DzSideNavCannotAutoFollowSelectedAction"/>
+  <Action Class="DzSideNavLimitsOnSelectedAction"/>
+  <Action Class="DzSideNavLimitsOffSelectedAction"/>
+  <Action Class="DzElementSideNavAddFavoriteSelectedAction"/>
+  <Action Class="DzElementSideNavRemoveFavoriteSelectedAction"/>
+  <Action Class="DzElementSideNavLockSelectedAction"/>
+  <Action Class="DzElementSideNavUnLockSelectedAction"/>
+  <Action Class="DzElementSideNavLimitsOnSelectedAction"/>
+  <Action Class="DzElementSideNavLimitsOffSelectedAction"/>
+  <Action Class="DzElementSideNavCollapseAllAction"/>
+  <Action Class="DzElementSideNavCollapseAllSelectedAction"/>
+  <Action Class="DzElementSideNavExpandAllAction"/>
+  <Action Class="DzElementSideNavExpandAllSelectedAction"/>
+  <Action Class="DzStyledPropertyShowSettingsAction"/>
+  <Action Class="DzStyledPropertyAddFavoriteAction"/>
+  <Action Class="DzStyledPropertyRemoveFavoriteAction"/>
+  <Action Class="DzStyledPropertyLockAction"/>
+  <Action Class="DzStyledPropertyUnlockAction"/>
+  <Action Class="DzStyledPropertyHideAction"/>
+  <Action Class="DzStyledPropertyUnhideAction"/>
+  <Action Class="DzStyledPropertyResetAction"/>
+  <Action Class="DzAddKeysAction"/>
+  <Action Class="DzDeleteKeysAction"/>
+  <Action Class="DzLoopToggleAction"/>
+  <Action Class="DzNextFrameAction"/>
+  <Action Class="DzPlayToggleAction"/>
+  <Action Class="DzPrevFrameAction"/>
+  <Action Class="DzSkipToNextKeyAction"/>
+  <Action Class="DzSkipToPlayrangeEndAction"/>
+  <Action Class="DzSkipToPlayrangeStartAction"/>
+  <Action Class="DzSkipToPrevKeyAction"/>
+  <Action Class="DzTimePaneAdvancedViewAction"/>
+  <Action Class="DzTimePanePlayAllFramesAction"/>
+  <Action Class="DzSubDAction"/>
+  <Action Class="DzTriangulateAction"/>
+  <Action Class="DzDynLodAction"/>
+  <Action Class="DzNewCameraAction"/>
+  <Action Class="DzNewDistantLightAction"/>
+  <Action Class="DzNewSpotlightAction"/>
+  <Action Class="DzNewPointLightAction"/>
+  <Action Class="DzNewLinearPointLightAction"/>
+  <Action Class="DzNewNodeAction"/>
+  <Action Class="DzNewGroupNodeAction"/>
+  <Action Class="DzResetScriptEngineAction"/>
+  <Action Class="DzAuxVPShowIPRToolBarAction"/>
+  <Action Class="DzAuxVPStopIPRRenderAction"/>
+  <Action Class="DzAuxVPStartIPRRenderAction"/>
+  <Action Class="DzAuxVPSaveIPRRenderAction"/>
+  <Action Class="DzAdjustRenderAspectRatioToMatchBackdropTextureAction"/>
+  <Action Class="DzAdjustRenderDimensionsToMatchBackdropTextureAction"/>
+  <Action Class="DzSceneAssetFilterAction"/>
+  <Action Class="DzPushModifierAction"/>
+  <Action Class="DzRemovePushModifierAction"/>
+  <Action Class="DzNewNodeInstanceAction"/>
+  <Action Class="DzNewNodeInstancesAction"/>
+  <Action Class="DzGroupInstancesAction"/>
+  <Action Class="DzUnGroupInstancesAction"/>
+  <Action Class="DzNewGeometryShellAction"/>
+  <Action Class="DzUpdateImportsFromSourceAction"/>
+  <Action Class="DzUpdateSceneImportsFromSourceAction"/>
+  <Action Class="DzDrawStartAction"/>
+  <Action Class="DzDrawStopAction"/>
+  <Action Class="DzSINewAction"/>
+  <Action Class="DzSIOpenAction"/>
+  <Action Class="DzSISaveAction"/>
+  <Action Class="DzSISaveAsAction"/>
+  <Action Class="DzSISaveEncryptedAction"/>
+  <Action Class="DzSIReloadAction"/>
+  <Action Class="DzSICloseAction"/>
+  <Action Class="DzSICloseAllAction"/>
+  <Action Class="DzSIExecuteAction"/>
+  <Action Class="DzSICutAction"/>
+  <Action Class="DzSICopyAction"/>
+  <Action Class="DzSIPasteAction"/>
+  <Action Class="DzSIDeleteAction"/>
+  <Action Class="DzSISelectAllAction"/>
+  <Action Class="DzSIToggleFindAction"/>
+  <Action Class="DzSIFindFirstAction"/>
+  <Action Class="DzSIFindPreviousAction"/>
+  <Action Class="DzSIFindNextAction"/>
+  <Action Class="DzSIReplacePreviousAction"/>
+  <Action Class="DzSIReplaceNextAction"/>
+  <Action Class="DzSIReplaceAllAction"/>
+  <Action Class="DzSIGotoLineAction"/>
+  <Action Class="DzSIConvertSpacesToTabsAction"/>
+  <Action Class="DzSIConvertTabsToSpacesAction"/>
+  <Action Class="DzSIConvertToUppercaseAction"/>
+  <Action Class="DzSIConvertToLowercaseAction"/>
+  <Action Class="DzSIPreferencesAction"/>
+  <Action Class="DzSIDebugAction"/>
+  <Action Class="DzSIInterruptAction"/>
+  <Action Class="DzSIStepIntoAction"/>
+  <Action Class="DzSIStepOverAction"/>
+  <Action Class="DzSIStepOutAction"/>
+  <Action Class="DzSIRunToCursorAction"/>
+  <Action Class="DzSIToggleBreakpointAction"/>
+  <Action Class="DzSIClearDebugAction"/>
+  <Action Class="DzSIClearErrorAction"/>
+  <Action Class="DzSIClearConsoleAction"/>
+  <Action Class="DzSIDocsAction"/>
+  <Action Class="DzAlignAction"/>
+  <Action Class="DzAPResetAction"/>
+  <Action Class="DzSetDefaultCompatibilityBasesAction"/>
+  <Action Class="DzSceneSupportAssetFilterAction"/>
+  <Action Class="DzNodeAssetFilterAction"/>
+  <Action Class="DzMorphAssetFilterAction"/>
+  <Action Class="DzUVAssetFilterAction"/>
+  <Action Class="DzShaderSupportAssetFilterAction"/>
+  <Action Class="DzDynamicClothAssetFilterAction"/>
+  <Action Class="DzCloneAssetSaveAction"/>
+  <Action Class="DzSaveModifiedAction"/>
+  <Action Class="DzShaderBakerPaneUseBakeAction"/>
+  <Action Class="DzShaderBakerPaneAutoBakeAction"/>
+  <Action Class="DzShaderBakerPaneRefreshBakeAction"/>
+  <Action Class="DzBryceBridge"/>
+  <Action Class="DzParamShowHiddenPropAction"/>
+  <Action Class="DzParamGroupExpansionModeAction"/>
+  <Action Class="DzParamDisplaySeparateAction"/>
+  <Action Class="DzParamShowFollowersAction"/>
+  <Action Class="DzParamEditModeAction"/>
+  <Action Class="DzParamConsolidatePropAction"/>
+  <Action Class="DzPEPropertyClonerAction"/>
+  <Action Class="DzPEPropertyMoverAction"/>
+  <Action Class="DzPEConformPropertyConverterAction"/>
+  <Action Class="DzPESelectMorphVerticesAction"/>
+  <Action Class="DzPSNGShowHiddenAction"/>
+  <Action Class="DzPSNGDisplaySeparateAction"/>
+  <Action Class="DzPSNGShowFollowersAction"/>
+  <Action Class="DzCMRSShowHiddenAction"/>
+  <Action Class="DzCMRSSyncWithSceneAction"/>
+  <Action Class="DzLGHTSShowHiddenAction"/>
+  <Action Class="DzLGHTSSyncWithSceneAction"/>
+  <Action Class="DzSHPNGShowHiddenAction"/>
+  <Action Class="DzSHPNGDisplaySeparateAction"/>
+  <Action Class="DzSHPNGShowFollowersAction"/>
+  <Action Class="DzSHPNGSyncNavigationAction"/>
+  <Action Class="DzUVViewAction"/>
+  <Action Class="DzContentDBEditorAction"/>
+  <Action Class="DzCLColumnViewAction"/>
+  <Action Class="DzCLTreeViewAction"/>
+  <Action Class="DzCLSideBySideViewAction"/>
+  <Action Class="DzCLDeleteSelectedAssetAction"/>
+  <Action Class="DzCLSearchHardDrivesAction"/>
+  <Action Class="DzCLScanKnownDirsAction"/>
+  <Action Class="DzCLImportMappedDirectoriesAction"/>
+  <Action Class="DzCLDatabaseMaintenanceAction"/>
+  <Action Class="DzCLCreatePoserCompanionFilesAction"/>
+  <Action Class="DzCustomizeAction"/>
+  <Action Class="DzNewDFormerAction"/>
+  <Action Class="DzDFormFilterAction"/>
+  <Action Class="DzDFormAssetFilterAction"/>
+  <Action Class="DzEasyLoaderTool"/>
+  <Action Class="DzExpExportAction"/>
+  <Action Class="DzFSCopyFromFigureAction"/>
+  <Action Class="DzFSLoadPresetAction"/>
+  <Action Class="DzFSSavePresetAction"/>
+  <Action Class="DzFSLoadPHIAction"/>
+  <Action Class="DzFSCreateFigureAction"/>
+  <Action Class="DzFSClearHierarchyAction"/>
+  <Action Class="DzFSRegionEditorAction"/>
+  <Action Class="DzUpdateGeometryAction"/>
+  <Action Class="DzMeshSmoothResetBaseAction"/>
+  <Action Class="DzMeshSmoothMorphBakerAction"/>
+  <Action Class="DzGoZAction"/>
+  <Action Class="DzHexBridge"/>
+  <Action Class="DzJECustomColorsAction"/>
+  <Action Class="DzJECreateBoneAction"/>
+  <Action Class="DzJECreateSiblingBoneAction"/>
+  <Action Class="DzJESplitBoneAction"/>
+  <Action Class="DzJETogglePropagateTranslationAction"/>
+  <Action Class="DzJEToggleViewBoneCreationAction"/>
+  <Action Class="DzJEConvertPropToFigureAction"/>
+  <Action Class="DzJEConvertFigureToPropAction"/>
+  <Action Class="DzJERenameNodeAction"/>
+  <Action Class="DzJEReparentBoneAction"/>
+  <Action Class="DzJEMirrorAction"/>
+  <Action Class="DzJEBakeRotationsAction"/>
+  <Action Class="DzJEDeleteBoneAction"/>
+  <Action Class="DzJEDeleteUnusedBonesAction"/>
+  <Action Class="DzJERotationOrderXYZAction"/>
+  <Action Class="DzJERotationOrderXZYAction"/>
+  <Action Class="DzJERotationOrderYXZAction"/>
+  <Action Class="DzJERotationOrderYZXAction"/>
+  <Action Class="DzJERotationOrderZXYAction"/>
+  <Action Class="DzJERotationOrderZYXAction"/>
+  <Action Class="DzJEToggleAutoAlignNodeAction"/>
+  <Action Class="DzJEAlignNodeAction"/>
+  <Action Class="DzJEAlignAllBonesAction"/>
+  <Action Class="DzJESnapCenterPointAction"/>
+  <Action Class="DzJESnapEndPointAction"/>
+  <Action Class="DzJEToggleAutoSnapEndPointsAction"/>
+  <Action Class="DzJEMemorizeFigureRiggingPropertiesAction"/>
+  <Action Class="DzJEMemorizeNodeRiggingPropertiesAction"/>
+  <Action Class="DzJERestoreFigureRiggingPropertiesAction"/>
+  <Action Class="DzJERestoreNodeRiggingPropertiesAction"/>
+  <Action Class="DzJETransferWSRiggingAction"/>
+  <Action Class="DzJECreateDonorFigureAction"/>
+  <Action Class="DzMVCCageAdjustRigToShapeAction"/>
+  <Action Class="DzJESelectedNodesAttributesEditAction"/>
+  <Action Class="DzJECreateControlBonesAction"/>
+  <Action Class="DzLayerAssetFilterAction"/>
+  <Action Class="DzTextureConvertorAction"/>
+  <Action Class="DzMorphFollowerAction"/>
+  <Action Class="DzMorphLoadAction"/>
+  <Action Class="DzMorphLoaderAction"/>
+  <Action Class="OptFreezeAction"/>
+  <Action Class="DzPGECreateFaceGroupAction"/>
+  <Action Class="DzPGECreateMaterialGroupAction"/>
+  <Action Class="DzPGECreateFaceGroupFromSelectionAction"/>
+  <Action Class="DzPGECreateMaterialGroupFromSelectionAction"/>
+  <Action Class="DzPGECreateRegionGroupAction"/>
+  <Action Class="DzPGECreateRegionGroupFromSelectionAction"/>
+  <Action Class="DzPGECreateRigidityGroupAction"/>
+  <Action Class="DzPGECreateRigidityGroupFromSelectionAction"/>
+  <Action Class="DzPGESetGraftTargetFacesAction"/>
+  <Action Class="DzPGESetAutoHideFacesAction"/>
+  <Action Class="DzPGEditRigidityGroupsAction"/>
+  <Action Class="DzPGDeleteHiddenFacetsAction"/>
+  <Action Class="DzPGDeleteUnusedVerticesAction"/>
+  <Action Class="DzPGESetRigidFollowReferenceAction"/>
+  <Action Class="DzPGECreateRigidFollowNodeFromSelectionAction"/>
+  <Action Class="DzPGECreateSelectionGroupAction"/>
+  <Action Class="DzPGECreateSelectionGroupFromSelectionAction"/>
+  <Action Class="DzPGMergeFollowerFacetsAction"/>
+  <Action Class="DzPGSetSubDWeightAction"/>
+  <Action Class="DzPrimitiveAction"/>
+  <Action Class="DzERCFreezeAction"/>
+  <Action Class="DzPuppeteerFilterAction"/>
+  <Action Class="DzPuppeteerPlayAudioAction"/>
+  <Action Class="DzPuppeteerFillFramesAction"/>
+  <Action Class="DzPuppeteerExtendFramesAction"/>
+  <Action Class="DzPuppeteerZoomToFitAction"/>
+  <Action Class="DzPuppeteerResetViewAction"/>
+  <Action Class="DzPuppeteerCenterViewAction"/>
+  <Action Class="DzPuppeteerAddLayerAction"/>
+  <Action Class="DzPuppeteerDeleteLayerAction"/>
+  <Action Class="DzPuppeteerRenameLayerAction"/>
+  <Action Class="DzPuppeteerClearLayerAction"/>
+  <Action Class="DzPuppeteerClearLayerAnimationAction"/>
+  <Action Class="DzPuppeteerDeletePoseAction"/>
+  <Action Class="DzPuppeteerUpdatePoseAction"/>
+  <Action Class="DzPuppeteerAssignImageAction"/>
+  <Action Class="DzPuppeteerImageScaleAction"/>
+  <Action Class="DzPuppeteerDisablePoseAction"/>
+  <Action Class="DzPuppeteerAssetFilterAction"/>
+  <Action Class="DzRendAlbumPrefsIconSizeAction"/>
+  <Action Class="DzRendAlbumPrefsRendCntAction"/>
+  <Action Class="DzRendAlbumPrefsRendSizeAction"/>
+  <Action Class="DzEditTextureAction"/>
+  <Action Class="DzShaderCompileAction"/>
+  <Action Class="DzPoseFilterAction"/>
+  <Action Class="DzShaderFilterAction"/>
+  <Action Class="DzMaterialsFilterAction"/>
+  <Action Class="DzCharacterFilterAction"/>
+  <Action Class="DzLightFilterAction"/>
+  <Action Class="DzCameraFilterAction"/>
+  <Action Class="DzUVSetFilterAction"/>
+  <Action Class="DzRenderSettingsFilterAction"/>
+  <Action Class="DzSceneSubsetAssetFilterAction"/>
+  <Action Class="DzHierarchicalMaterialAssetFilterAction"/>
+  <Action Class="DzHierarchicalPoseAssetFilterAction"/>
+  <Action Class="DzWearablesAssetFilterAction"/>
+  <Action Class="DzCharacterAssetFilterAction"/>
+  <Action Class="DzPropertiesAssetFilterAction"/>
+  <Action Class="DzShapingAssetFilterAction"/>
+  <Action Class="DzPoseAssetFilterAction"/>
+  <Action Class="DzMaterialAssetFilterAction"/>
+  <Action Class="DzShaderAssetFilterAction"/>
+  <Action Class="DzCameraAssetFilterAction"/>
+  <Action Class="DzLightAssetFilterAction"/>
+  <Action Class="DzRenderSettingsAssetFilterAction"/>
+  <Action Class="DzSBResetShaderAction"/>
+  <Action Class="DzSBRestoreShaderNetworksAction"/>
+  <Action Class="DzREPCustomColorsAction"/>
+  <Action Class="DzSMNewShaderAction"/>
+  <Action Class="DzSMOpenShaderAction"/>
+  <Action Class="DzSMImportShaderAction"/>
+  <Action Class="DzSMCloseShaderAction"/>
+  <Action Class="DzSMSaveShaderAction"/>
+  <Action Class="DzSMGeneralPrefsAction"/>
+  <Action Class="DzSMCutBricksAction"/>
+  <Action Class="DzSMCopyBricksAction"/>
+  <Action Class="DzSMPasteBricksAction"/>
+  <Action Class="DzSMDeleteBricksAction"/>
+  <Action Class="DzSMGroupBricksAction"/>
+  <Action Class="DzSMBricksAlignTopsAction"/>
+  <Action Class="DzSMBricksAlignLeftsAction"/>
+  <Action Class="DzSMBricksAlignRightsAction"/>
+  <Action Class="DzSMBricksAlignBottomsAction"/>
+  <Action Class="DzSMZoomToFitAction"/>
+  <Action Class="DzSMBricksFrontAction"/>
+  <Action Class="DzSMBricksBackAction"/>
+  <Action Class="DzSMArrangeBricksAction"/>
+  <Action Class="DzSMArrangeSelectedBricksAction"/>
+  <Action Class="DzSMShaderPrefsAction"/>
+  <Action Class="DzSMOnlineDocsAction"/>
+  <Action Class="DzSMRefreshCustomAction"/>
+  <Action Class="DzSMBrowseCustomAction"/>
+  <Action Class="DzMDLDirectoryManagerAction"/>
+  <Action Class="DzSCStandardViewAction"/>
+  <Action Class="DzSCBasicViewAction"/>
+  <Action Class="DzSCSyncPagesAction"/>
+  <Action Class="DzTextureAtlas"/>
+  <Action Class="DzTransferUtilityAction"/>
+  <Action Class="DzConvertFigureAction"/>
+  <Action Class="DzConvertLocalMapsToGeneralAction"/>
+  <Action Class="DzConvertToBlendedLocalGeneralAction"/>
+  <Action Class="DzClearGeneratedMorphsAction"/>
+  <Action Class="DzConvertGeneralMapsToLocalAction"/>
+  <Action Class="DzClearGeneralWeightsAction"/>
+  <Action Class="DzClearLocalWeightsAction"/>
+  <Action Class="DzClearScaleWeightsAction"/>
+  <Action Class="DzNodeWeightSymAction"/>
+  <Action Class="DzNodeWeightNormalizeAction"/>
+  <Action Class="DzShowChildrenNodeWeightsAction"/>
+  <Action Class="DzNodeWeightGeneralMapAction"/>
+  <Action Class="DzNodeWeightScaleMapAction"/>
+  <Action Class="DzNodeWeightXRotationMapAction"/>
+  <Action Class="DzNodeWeightXBulgeLMapAction"/>
+  <Action Class="DzNodeWeightXBulgeRMapAction"/>
+  <Action Class="DzNodeWeightYRotationMapAction"/>
+  <Action Class="DzNodeWeightYBulgeLMapAction"/>
+  <Action Class="DzNodeWeightYBulgeRMapAction"/>
+  <Action Class="DzNodeWeightZRotationMapAction"/>
+  <Action Class="DzNodeWeightZBulgeLMapAction"/>
+  <Action Class="DzNodeWeightZBulgeRMapAction"/>
+  <Action Class="DzFilterNodeWeightAction"/>
+  <Action Class="DzNodeWeightBySelectionSetAction"/>
+  <Action Class="DzCopyNodeWeightMapsAction"/>
+  <Action Class="DzNewPushModifierWeightNodeAction"/>
+  <Action Class="DzBrowseForMimicProAction"/>
+  <Action Class="PowerPosePinAction"/>
+  <Action Class="PowerPoseUnPinAction"/>
+  <Action Class="aniMateSeekFirst"/>
+  <Action Class="aniMatePlayToggle"/>
+  <Action Class="aniMateSeekLast"/>
+  <Action Class="aniMateFrameNext"/>
+  <Action Class="aniMateFramePrev"/>
+  <Action Class="aniMateZoomIn"/>
+  <Action Class="aniMateZoomOut"/>
+  <Action Class="aniMateCopy"/>
+  <Action Class="aniMatePaste"/>
+  <Action Class="aniMateDelete"/>
+  <Action Class="aniMateKey"/>
+  <Action Class="aniMateZero"/>
+  <Action Class="aniMatePreferences"/>
+ </CurrentActionList>
+ <MainMenu Type="Custom" Version="10">
+  <SubMenu Type="Custom" Label="&amp;File文件">
+   <Action Class="DzNewAction"/>
+   <Separator/>
+   <Action Class="DzOpenAction"/>
+   <SubMenu Type="OpenRecent" Label="Open Recent最近打开"/>
+   <Action Class="DzMergeAction"/>
+   <Action Class="DzSaveAction"/>
+   <SubMenu Type="SaveAs" Label="Save As保存为"/>
+   <Action Class="DzSaveLastDrawAction"/>
+   <Action Class="DzSaveLastRenderAction"/>
+   <Separator/>
+   <Action Class="DzImportAction"/>
+   <Action Class="DzExportAction"/>
+   <Separator/>
+   <Action Class="DzPSBridgeAction"/>
+   <Separator/>
+   <Action Class="DzBryceBridge"/>
+   <Action Class="DzHexBridge"/>
+   <Action Class="DzGoZAction"/>
+   <Separator/>
+   <Action Class="DzExitAction"/>
+   <Action Class="DzGoZAction" Default="false"/>
+  </SubMenu>
+  <SubMenu Type="Custom" Label="&amp;Edit编辑">
+   <Action Class="DzUndoAction"/>
+   <Action Class="DzRedoAction"/>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Copy复制">
+    <Action Class="DzCopyFigureAction"/>
+    <Separator/>
+    <Action Class="DzCopyNodeAction"/>
+    <Separator/>
+    <Action Class="DzCopyMaterialAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Paste粘贴">
+    <Action Class="DzPasteFigureAction"/>
+    <Action Class="DzPasteFigurePoseAction"/>
+    <Action Class="DzPasteFigureMorphAction"/>
+    <Separator/>
+    <Action Class="DzPasteNodeAction"/>
+    <Action Class="DzPasteNodePoseAction"/>
+    <Action Class="DzPasteNodeMorphAction"/>
+    <Separator/>
+    <Action Class="DzPasteMaterialAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Duplicate复制">
+    <Action Class="DzDuplicateNodeAction"/>
+    <Action Class="DzDuplicateNodeHierarchyAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Delete删除">
+    <Action Class="DzDeleteAction"/>
+    <Action Class="DzDeleteAllLightsAction"/>
+    <Action Class="DzDeleteAllCamerasAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Object对象">
+    <Action Class="DzTransferUtilityAction"/>
+    <Action Class="DzMorphLoadAction"/>
+    <Action Class="DzMorphLoaderAction"/>
+    <Separator/>
+    <Action Class="GaribaldiEditNodeAction"/>
+    <Separator/>
+    <Action Class="DzHPSceneIDEditorAction"/>
+    <Action Class="DzSetDefaultCompatibilityBasesAction"/>
+    <Action Class="DzHPNodeElementDataEditorAction"/>
+    <Separator/>
+    <SubMenu Type="Custom" Label="Geometry几何">
+     <Action Class="DzSubDAction"/>
+     <Action Class="DzTriangulateAction"/>
+     <Action Class="DzDynLodAction"/>
+     <Separator/>
+     <Action Class="DzLoadUVSetAction"/>
+     <Separator/>
+     <Action Class="DzMeshSmoothAction"/>
+     <Action Class="DzRemoveMeshSmoothAction"/>
+     <Action Class="DzMeshSmoothResetBaseAction"/>
+     <Action Class="DzMeshSmoothMorphBakerAction"/>
+     <Separator/>
+     <Action Class="DzPushModifierAction"/>
+     <Action Class="DzRemovePushModifierAction"/>
+     <Separator/>
+     <Action Class="DzGeomReplaceAction"/>
+     <Action Class="DzUpdateGeometryAction"/>
+    </SubMenu>
+    <SubMenu Type="Custom" Label="Rigging绑定">
+     <Action Class="DzJEConvertPropToFigureAction"/>
+    </SubMenu>
+    <SubMenu Type="Custom" Label="Instances实例">
+     <Action Class="DzGroupInstancesAction"/>
+     <Action Class="DzUnGroupInstancesAction"/>
+    </SubMenu>
+    <SubMenu Type="Custom" Label="Assets资产">
+     <Action Class="DzUpdateImportsFromSourceAction"/>
+    </SubMenu>
+    <Separator/>
+    <SubMenu Type="Custom" Label="Memorize记忆">
+     <Action Class="DzMemorizeSelectedItemsAction"/>
+     <Action Class="DzMemorizePoseAction"/>
+     <Action Class="DzMemorizeShapeAction"/>
+     <Action Class="DzJEMemorizeNodeRiggingPropertiesAction"/>
+    </SubMenu>
+    <SubMenu Type="Custom" Label="Restore恢复">
+     <Action Class="DzRestoreSelectedItemsAction"/>
+     <Action Class="DzRestorePoseAction"/>
+     <Action Class="DzRestoreShapeAction"/>
+     <Action Class="DzJERestoreNodeRiggingPropertiesAction"/>
+    </SubMenu>
+    <SubMenu Type="Custom" Label="Zero零">
+     <Action Class="DzZeroSelectedItemsAction"/>
+     <Action Class="DzZeroPoseAction"/>
+     <Action Class="DzZeroShapeAction"/>
+    </SubMenu>
+    <SubMenu Type="Custom" Label="Clear Animation清除动画">
+     <Action Class="DzClearKeysSelectedItemsAction"/>
+     <Action Class="DzClearKeysPoseAction"/>
+     <Action Class="DzClearKeysShapeAction"/>
+    </SubMenu>
+    <Separator/>
+    <SubMenu Type="Custom" Label="Lock锁定">
+     <Action Class="DzLockNodeAction"/>
+     <Action Class="DzLockPoseAction"/>
+     <Action Class="DzLockShapeAction"/>
+     <Separator/>
+     <Action Class="DzUnlockNodeAction"/>
+     <Action Class="DzUnlockPoseAction"/>
+     <Action Class="DzUnlockShapeAction"/>
+    </SubMenu>
+    <Separator/>
+    <Action Class="DzChangeParentAction"/>
+    <Separator/>
+    <Action Class="DzMoveToFloorAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Figure形状">
+    <Action Class="DzTransferUtilityAction"/>
+    <Action Class="DzMorphFollowerAction"/>
+    <Action Class="DzMorphLoadAction"/>
+    <Action Class="DzMorphLoaderAction"/>
+    <Action Class="DzClearGeneratedMorphsAction"/>
+    <Separator/>
+    <Action Class="DzHPSceneIDEditorAction"/>
+    <Action Class="DzSetDefaultCompatibilityBasesAction"/>
+    <Action Class="DzHPNodeElementDataEditorAction"/>
+    <Separator/>
+    <SubMenu Type="Custom" Label="Geometry几何">
+     <Action Class="DzSubDAction"/>
+     <Action Class="DzTriangulateAction"/>
+     <Action Class="DzDynLodAction"/>
+     <Separator/>
+     <Action Class="DzLoadUVSetAction"/>
+     <Separator/>
+     <Action Class="DzMeshSmoothAction"/>
+     <Action Class="DzRemoveMeshSmoothAction"/>
+     <Action Class="DzMeshSmoothResetBaseAction"/>
+     <Action Class="DzMeshSmoothMorphBakerAction"/>
+     <Separator/>
+     <Action Class="DzPushModifierAction"/>
+     <Action Class="DzRemovePushModifierAction"/>
+     <Separator/>
+     <Action Class="DzGeomReplaceAction"/>
+     <Action Class="DzUpdateGeometryAction"/>
+    </SubMenu>
+    <SubMenu Type="Custom" Label="Rigging绑定">
+     <Action Class="DzJEConvertFigureToPropAction"/>
+     <Action Class="DzConvertFigureAction"/>
+     <Action Class="DzConvertLocalMapsToGeneralAction"/>
+     <Action Class="DzConvertGeneralMapsToLocalAction"/>
+     <Action Class="DzConvertToBlendedLocalGeneralAction"/>
+     <Separator/>
+     <Action Class="DzJECreateDonorFigureAction"/>
+     <Separator/>
+     <Action Class="DzJETransferWSRiggingAction"/>
+     <Action Class="DzMVCCageAdjustRigToShapeAction"/>
+     <Separator/>
+     <Action Class="DzWeightBySelectionSetAction"/>
+    </SubMenu>
+    <SubMenu Type="Custom" Label="Instances实例">
+     <Action Class="DzGroupInstancesAction"/>
+     <Action Class="DzUnGroupInstancesAction"/>
+    </SubMenu>
+    <SubMenu Type="Custom" Label="Assets资产">
+     <Action Class="DzUpdateImportsFromSourceAction"/>
+    </SubMenu>
+    <Separator/>
+    <SubMenu Type="Custom" Label="Memorize记忆">
+     <Action Class="DzMemorizeFigureAction"/>
+     <Action Class="DzMemorizeFigurePoseAction"/>
+     <Action Class="DzMemorizeFigureShapeAction"/>
+     <Action Class="DzJEMemorizeFigureRiggingPropertiesAction"/>
+     <Separator/>
+     <Action Class="DzMemorizeSelectedItemsAction"/>
+     <Action Class="DzMemorizePoseAction"/>
+     <Action Class="DzMemorizeShapeAction"/>
+     <Action Class="DzJEMemorizeNodeRiggingPropertiesAction"/>
+    </SubMenu>
+    <SubMenu Type="Custom" Label="Restore恢复">
+     <Action Class="DzRestoreFigureAction"/>
+     <Action Class="DzRestoreFigurePoseAction"/>
+     <Action Class="DzRestoreFigureShapeAction"/>
+     <Action Class="DzJERestoreFigureRiggingPropertiesAction"/>
+     <Separator/>
+     <Action Class="DzRestoreSelectedItemsAction"/>
+     <Action Class="DzRestorePoseAction"/>
+     <Action Class="DzRestoreShapeAction"/>
+     <Action Class="DzJERestoreNodeRiggingPropertiesAction"/>
+    </SubMenu>
+    <SubMenu Type="Custom" Label="Zero">
+     <Action Class="DzZeroFigureAction"/>
+     <Action Class="DzZeroFigurePoseAction"/>
+     <Action Class="DzZeroFigureShapeAction"/>
+     <Separator/>
+     <Action Class="DzZeroSelectedItemsAction"/>
+     <Action Class="DzZeroPoseAction"/>
+     <Action Class="DzZeroShapeAction"/>
+    </SubMenu>
+    <SubMenu Type="Custom" Label="Clear Animation">
+     <Action Class="DzClearKeysFigureAction"/>
+     <Action Class="DzClearKeysFigurePoseAction"/>
+     <Action Class="DzClearKeysFigureShapeAction"/>
+     <Separator/>
+     <Action Class="DzClearKeysSelectedItemsAction"/>
+     <Action Class="DzClearKeysPoseAction"/>
+     <Action Class="DzClearKeysShapeAction"/>
+    </SubMenu>
+    <Separator/>
+    <SubMenu Type="Custom" Label="Limits">
+     <Action Class="DzLimitsOnAction"/>
+     <Action Class="DzLimitsOffAction"/>
+    </SubMenu>
+    <SubMenu Type="Custom" Label="Lock">
+     <Action Class="DzLockNodeAction"/>
+     <Action Class="DzLockPoseAction"/>
+     <Action Class="DzLockShapeAction"/>
+     <Separator/>
+     <Action Class="DzUnlockNodeAction"/>
+     <Action Class="DzUnlockPoseAction"/>
+     <Action Class="DzUnlockShapeAction"/>
+    </SubMenu>
+    <Separator/>
+    <SubMenu Type="Custom" Label="Inverse Kinematics">
+     <Action Class="DzIKEnableIKAction"/>
+     <Action Class="DzIKEnablePinsAction"/>
+     <Separator/>
+     <Action Class="DzIKPinBothAction"/>
+     <Action Class="DzIKPinRotationAction"/>
+     <Action Class="DzIKPinTranslationAction"/>
+     <Separator/>
+     <Action Class="DzIKClearPinAction"/>
+     <Action Class="DzIKClearPinsAction"/>
+     <Separator/>
+     <Action Class="DzIKConvertToFKAction"/>
+    </SubMenu>
+    <Separator/>
+    <Action Class="DzFitToAction"/>
+    <Action Class="DzChangeParentAction"/>
+    <Separator/>
+    <Action Class="DzSymmetryAction"/>
+    <Action Class="DzBakeToTransformsAction"/>
+    <Separator/>
+    <Action Class="DzMoveToFloorAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Scene场景">
+    <Action Class="DzUpdateSceneImportsFromSourceAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="View">
+    <Action Class="DzViewControlKeyNavAction"/>
+    <Separator/>
+    <Action Class="DzDollyCameraUpAction"/>
+    <Action Class="DzDollyCameraDownAction"/>
+    <Action Class="DzDollyCameraForwardAction"/>
+    <Action Class="DzDollyCameraBackAction"/>
+    <Action Class="DzDollyCameraLeftAction"/>
+    <Action Class="DzDollyCameraRightAction"/>
+    <Separator/>
+    <Action Class="DzIncreaseCameraDollyFactorAction"/>
+    <Action Class="DzDecreaseCameraDollyFactorAction"/>
+    <Action Class="DzResetCameraDollyFactorAction"/>
+    <Separator/>
+    <Action Class="DzRotateCameraUpAction"/>
+    <Action Class="DzRotateCameraDownAction"/>
+    <Action Class="DzRotateCameraLeftAction"/>
+    <Action Class="DzRotateCameraRightAction"/>
+    <Action Class="DzBankCameraLeftAction"/>
+    <Action Class="DzBankCameraRightAction"/>
+    <Separator/>
+    <Action Class="DzIncreaseCameraRotateFactorAction"/>
+    <Action Class="DzDecreaseCameraRotateFactorAction"/>
+    <Action Class="DzResetCameraRotateFactorAction"/>
+    <Separator/>
+    <Action Class="DzLevelCameraRotateAction"/>
+    <Separator/>
+    <Action Class="DzIncreaseCameraLevelFactorAction"/>
+    <Action Class="DzDecreaseCameraLevelFactorAction"/>
+    <Action Class="DzResetCameraLevelFactorAction"/>
+    <Separator/>
+    <Action Class="DzLevelCameraSnapAction"/>
+    <Separator/>
+    <Action Class="DzFrameCameraAction"/>
+    <Action Class="DzAimCameraAction"/>
+    <Action Class="DzResetCameraAction"/>
+   </SubMenu>
+   <Separator/>
+   <Action Class="DzAudioAction"/>
+   <Separator/>
+   <Action Class="DzPreferencesAction"/>
+   <Separator/>
+   <Action Class="DzDevicesAction"/>
+   <Separator/>
+  </SubMenu>
+  <SubMenu Type="Custom" Label="&amp;Create">
+   <Action Class="DzNewCameraAction"/>
+   <Separator/>
+   <Action Class="DzNewDistantLightAction"/>
+   <Separator/>
+   <Action Class="DzNewSpotlightAction"/>
+   <Separator/>
+   <Action Class="DzNewPointLightAction"/>
+   <Action Class="DzNewLinearPointLightAction"/>
+   <Separator/>
+   <Action Class="DzPrimitiveAction"/>
+   <Action Class="DzNewNodeAction"/>
+   <Action Class="DzNewGroupNodeAction"/>
+   <Separator/>
+   <Action Class="DzNewNodeInstanceAction"/>
+   <Action Class="DzNewNodeInstancesAction"/>
+   <Action Class="DzNewGeometryShellAction"/>
+   <Separator/>
+   <Action Class="DzNewDFormerAction"/>
+   <Action Class="DzNewPushModifierWeightNodeAction"/>
+   <Separator/>
+   <Action Class="DzNewIrayDecalNodeAction"/>
+   <Action Class="DzNewIraySectionPlaneNodeAction"/>
+   <Separator/>
+   <Action Class="DzCreateMeasureMetricsAction"/>
+   <Separator/>
+   <Action Class="GaribaldiCreateNodeAction"/>
+   <Action Class="lookAtMyHairViewToolAction"/>
+  </SubMenu>
+  <SubMenu Type="ViewTool" Label="&amp;Tools工具"/>
+  <SubMenu Type="Custom" Label="&amp;Render渲染">
+   <Action Class="DzRenderAction"/>
+   <Action Class="DzRenderSettingsAction"/>
+   <Action Class="DzEditTextureAction"/>
+  </SubMenu>
+  <SubMenu Type="Custom" Label="C&amp;onnect连接">
+   <Action Class="DzDAZLoginAction"/>
+   <Action Class="DzWorkOfflineAction"/>
+   <Separator/>
+   <Action Class="DzUpdateMetadataAction"/>
+   <Separator/>
+   <Action Class="DzDAZMyAccountAction"/>
+   <Action Class="DzDAZMyCartAction"/>
+   <Action Class="DzDAZMyWishlistAction"/>
+   <Action Class="DzDAZMyGalleryAction"/>
+  </SubMenu>
+  <SubMenu Type="Custom" Label="&amp;Window窗口">
+   <SubMenu Type="Pane" Label="&amp;Panes (Tabs)页"/>
+   <SubMenu Type="Custom" Label="&amp;Viewports视角">
+    <Action Class="DzSingleViewAction"/>
+    <Action Class="DzSideBySideAction"/>
+    <Action Class="DzTopAndBottomAction"/>
+    <Action Class="DzFourViewsAction"/>
+    <Action Class="Dz2Right1LeftAction"/>
+    <Action Class="Dz2Top1BottomAction"/>
+    <Action Class="Dz2Left1RightAction"/>
+    <Action Class="Dz2Bottom1TopAction"/>
+    <Action Class="Dz3Right1LeftAction"/>
+    <Action Class="Dz3Top1BottomAction"/>
+    <Action Class="Dz3Left1RightAction"/>
+    <Action Class="Dz3Bottom1TopAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="&amp;Workspace工作空间">
+    <Action Class="DzSelectLayoutAction"/>
+    <Separator/>
+    <Action Class="DzSaveLayoutAction"/>
+    <Action Class="DzDeleteLayoutAction"/>
+    <Separator/>
+    <Action Class="DzOffScreenPaneGroupsAction"/>
+    <Separator/>
+    <Action Class="DzToggleActivityBarAction"/>
+    <Action Class="DzToggleOrientTabsAlongTopAction"/>
+    <Action Class="DzToggleLessonStripShowAction"/>
+    <Action Class="DzLockUIAction"/>
+    <Separator/>
+    <Action Class="DzCustomizeAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="&amp;Style风格">
+    <Action Class="DzSelectStyleAction"/>
+    <Separator/>
+    <Action Class="DzSaveStyleAction"/>
+    <Action Class="DzDeleteStyleAction"/>
+    <Separator/>
+    <Action Class="DzCustomColorsAction"/>
+   </SubMenu>
+   <Separator/>
+   <Action Class="DzAlwaysOnTopAction"/>
+   <Action Class="DzFullScreenAction"/>
+   <Separator/>
+   <Action Class="DzPreviewLightsAction"/>
+  </SubMenu>
+  <SubMenu Type="Custom" Label="&amp;Help帮助">
+   <Action Class="DzWelcomeHomeAction"/>
+   <Separator/>
+   <Action Class="DzQuickStartGuideAction"/>
+   <Action Class="DzUserGuideAction"/>
+   <Action Class="DzReferenceGuideAction"/>
+   <Separator/>
+   <Action Class="DzVideoTutorialsAction"/>
+   <Separator/>
+   <Action Class="DzLaunchHelpBrowserAction"/>
+   <Separator/>
+   <SubMenu Type="Custom" Label="&amp;Online Resources在线资源">
+    <Action Class="DzFrequentQuestionsAction"/>
+    <Separator/>
+    <Action Class="DzDAZTutorialsAction"/>
+    <Separator/>
+    <Action Class="DzDAZWebSiteAction"/>
+    <Action Class="DzDAZGalleriesAction"/>
+    <Action Class="DzDAZForumsAction"/>
+    <Action Class="DzDAZNewUserHelpForumAction"/>
+   </SubMenu>
+   <Separator/>
+   <Action Class="DzWhatsThisAction"/>
+   <Separator/>
+   <Action Class="DzInlineHelpEditorAction"/>
+   <Action Class="DzInlineHelpSaveAction"/>
+   <Separator/>
+   <Action Class="DzRegisterDAZStudioAction"/>
+   <Separator/>
+   <Action Class="DzAboutDAZStudioAction"/>
+   <Action Class="DzAboutPluginsAction"/>
+   <Separator/>
+   <SubMenu Type="Custom" Label="&amp;Troubleshooting排错">
+    <Action Class="DzAboutHardwareAction"/>
+    <Action Class="DzLogFileAction"/>
+   </SubMenu>
+   <Separator/>
+   <Action Class="DzReportABugAction"/>
+  </SubMenu>
+ </MainMenu>
+ <PaneMenus>
+  <PaneMenu Class="DzCameraPane" Type="Custom" Version="4">
+   <Action Class="DzViewControlKeyNavAction"/>
+   <Separator/>
+   <Action Class="DzDollyCameraUpAction"/>
+   <Action Class="DzDollyCameraDownAction"/>
+   <Action Class="DzDollyCameraForwardAction"/>
+   <Action Class="DzDollyCameraBackAction"/>
+   <Action Class="DzDollyCameraLeftAction"/>
+   <Action Class="DzDollyCameraRightAction"/>
+   <Separator/>
+   <Action Class="DzIncreaseCameraDollyFactorAction"/>
+   <Action Class="DzDecreaseCameraDollyFactorAction"/>
+   <Action Class="DzResetCameraDollyFactorAction"/>
+   <Separator/>
+   <Action Class="DzRotateCameraUpAction"/>
+   <Action Class="DzRotateCameraDownAction"/>
+   <Action Class="DzRotateCameraLeftAction"/>
+   <Action Class="DzRotateCameraRightAction"/>
+   <Action Class="DzBankCameraLeftAction"/>
+   <Action Class="DzBankCameraRightAction"/>
+   <Separator/>
+   <Action Class="DzIncreaseCameraRotateFactorAction"/>
+   <Action Class="DzDecreaseCameraRotateFactorAction"/>
+   <Action Class="DzResetCameraRotateFactorAction"/>
+   <Separator/>
+   <Action Class="DzLevelCameraRotateAction"/>
+   <Separator/>
+   <Action Class="DzIncreaseCameraLevelFactorAction"/>
+   <Action Class="DzDecreaseCameraLevelFactorAction"/>
+   <Action Class="DzResetCameraLevelFactorAction"/>
+   <Separator/>
+   <Action Class="DzLevelCameraSnapAction"/>
+  </PaneMenu>
+  <PaneMenu Class="DzHelpPane" Type="Custom" Version="0"/>
+  <PaneMenu Class="DzHierarchyPane" Type="Custom" Version="12">
+   <SubMenu Type="Custom" Label="Show显示">
+    <Action Class="DzHPShowFiguresAction"/>
+    <Action Class="DzHPShowObjectsAction"/>
+    <Action Class="DzHPShowLightsAction"/>
+    <Action Class="DzHPShowCamerasAction"/>
+    <Action Class="DzHPShowDFormsAction"/>
+    <Action Class="DzHPShowIKAction"/>
+    <Separator/>
+    <Action Class="DzHPShowHiddenAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Select选择">
+    <Action Class="DzHPSelectAllAction"/>
+    <Action Class="DzHPSelectFiguresAction"/>
+    <Action Class="DzHPSelectObjectsAction"/>
+    <Action Class="DzHPSelectLightsAction"/>
+    <Action Class="DzHPSelectCamerasAction"/>
+    <Action Class="DzHPSelectDFormsAction"/>
+    <Action Class="DzMMSelectTapeMeasuresAction"/>
+    <Action Class="DzMMSelectTailorTapesAction"/>
+    <Action Class="DzMMSelectProtractorsAction"/>
+    <Action Class="DzMMSelectCompoundMeasuresAction"/>
+    <Separator/>
+    <Action Class="DzHPSelectChildrenAction"/>
+    <Action Class="DzHPDeselectChildrenAction"/>
+    <Separator/>
+    <Action Class="DzHPClearSelectionAction"/>
+    <Separator/>
+    <Action Class="DzHPInvertSelectionAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Reorder">
+    <Action Class="DzHPOrderNodesMoveToTopAction"/>
+    <Action Class="DzHPOrderNodesMoveUpAction"/>
+    <Action Class="DzHPOrderNodesMoveDownAction"/>
+    <Action Class="DzHPOrderNodesMoveToBottomAction"/>
+    <Separator/>
+    <Action Class="DzHPLockBoneOrderAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="&amp;Create">
+    <Action Class="DzNewCameraAction"/>
+    <Separator/>
+    <Action Class="DzNewDistantLightAction"/>
+    <Separator/>
+    <Action Class="DzNewSpotlightAction"/>
+    <Separator/>
+    <Action Class="DzNewPointLightAction"/>
+    <Action Class="DzNewLinearPointLightAction"/>
+    <Separator/>
+    <Action Class="DzPrimitiveAction"/>
+    <Action Class="DzNewNodeAction"/>
+    <Action Class="DzNewGroupNodeAction"/>
+    <Separator/>
+    <Action Class="DzNewNodeInstanceAction"/>
+    <Action Class="DzNewNodeInstancesAction"/>
+    <Action Class="DzNewGeometryShellAction"/>
+    <Separator/>
+    <Action Class="DzNewDFormerAction"/>
+    <Action Class="DzNewPushModifierWeightNodeAction"/>
+    <Separator/>
+    <Action Class="DzNewIrayDecalNodeAction"/>
+    <Action Class="DzNewIraySectionPlaneNodeAction"/>
+    <Separator/>
+    <Action Class="DzCreateMeasureMetricsAction"/>
+    <Separator/>
+    <Action Class="GaribaldiCreateNodeAction"/>
+    <Action Class="lookAtMyHairViewToolAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Delete">
+    <Action Class="DzDeleteAction"/>
+    <Action Class="DzDeleteAllLightsAction"/>
+    <Action Class="DzDeleteAllCamerasAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Sorting">
+    <Action Class="DzHPNoSortAction"/>
+    <Action Class="DzHPSortAscendAction"/>
+    <Action Class="DzHPSortDescendAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Expand">
+    <Action Class="DzHPExpandAllAction"/>
+    <Action Class="DzHPExpandSelectedAction"/>
+    <Action Class="DzHPExpandFromSelectedAction" Default="false"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Collapse">
+    <Action Class="DzHPCloseAllAction"/>
+    <Action Class="DzHPCloseSelectedAction"/>
+    <Action Class="DzHPCloseFromSelectedAction" Default="false"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Edit">
+    <Action Class="DzHPSceneIDEditorAction"/>
+    <Action Class="DzSetDefaultCompatibilityBasesAction"/>
+    <Action Class="DzHPNodeElementDataEditorAction"/>
+    <Separator/>
+    <SubMenu Type="Custom" Label="Geometry">
+     <Action Class="DzSubDAction"/>
+     <Action Class="DzTriangulateAction"/>
+     <Action Class="DzDynLodAction"/>
+     <Separator/>
+     <Action Class="DzLoadUVSetAction"/>
+     <Separator/>
+     <Action Class="DzMeshSmoothAction"/>
+     <Action Class="DzRemoveMeshSmoothAction"/>
+     <Action Class="DzMeshSmoothResetBaseAction"/>
+     <Action Class="DzMeshSmoothMorphBakerAction"/>
+     <Separator/>
+     <Action Class="DzPushModifierAction"/>
+     <Action Class="DzRemovePushModifierAction"/>
+     <Separator/>
+     <Action Class="DzGeomReplaceAction"/>
+     <Action Class="DzUpdateGeometryAction"/>
+     <Separator/>
+     <Action Class="DzCurveMeshAction"/>
+    </SubMenu>
+    <SubMenu Type="Custom" Label="Rigging">
+     <Action Class="DzJEConvertPropToFigureAction"/>
+     <Action Class="DzJEConvertFigureToPropAction"/>
+     <Action Class="DzConvertFigureAction"/>
+     <Action Class="DzConvertLocalMapsToGeneralAction"/>
+     <Action Class="DzConvertGeneralMapsToLocalAction"/>
+     <Action Class="DzConvertToBlendedLocalGeneralAction"/>
+     <Separator/>
+     <Action Class="DzJECreateDonorFigureAction"/>
+     <Separator/>
+     <Action Class="DzJETransferWSRiggingAction"/>
+     <Action Class="DzMVCCageAdjustRigToShapeAction"/>
+     <Separator/>
+     <Action Class="DzWeightBySelectionSetAction"/>
+    </SubMenu>
+    <Separator/>
+    <Action Class="DzUpdateImportsFromSourceAction"/>
+    <Action Class="DzUpdateSceneImportsFromSourceAction"/>
+    <Separator/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Assets">
+    <Action Class="DzClothingCreatorAction"/>
+    <Separator/>
+    <Action Class="DzTransferUtilityAction"/>
+    <Action Class="DzMorphFollowerAction"/>
+    <Action Class="DzMorphLoadAction"/>
+    <Action Class="DzMorphLoaderAction"/>
+    <Action Class="DzClearGeneratedMorphsAction"/>
+    <Separator/>
+    <Action Class="DzAssetCollectorAction"/>
+    <Action Class="DigiMiAssetCollectorAction"/>
+    <Action Class="DzDQSDecoder"/>
+    <Separator/>
+    <Action Class="DzExpExportAction"/>
+   </SubMenu>
+   <Separator/>
+   <Action Class="DzHPTogglePIPAction"/>
+  </PaneMenu>
+  <PaneMenu Class="DzRenderSettingsPane" Type="Custom" Version="0">
+   <Action Class="DzRenderSettingsShowHiddenAction"/>
+   <Separator/>
+   <Action Class="DzRenderSettingsRestoreDefaultsAction"/>
+  </PaneMenu>
+  <PaneMenu Class="DzSurfacesPane" Type="Custom" Version="12">
+   <Action Class="DzSRFShowHiddenAction"/>
+   <Separator/>
+   <Action Class="DzSRFDisplaySelectedAction"/>
+   <Action Class="DzSRFDisplaySelectedWithFitAction"/>
+   <Action Class="DzSRFDisplayAllAction"/>
+   <Separator/>
+   <Action Class="DzCopyMaterialAction"/>
+   <Action Class="DzPasteMaterialAction"/>
+   <Separator/>
+   <Action Class="DzSRFExpandAllAction"/>
+   <Action Class="DzSRFCollapseAllAction"/>
+   <Separator/>
+   <Action Class="DzRefreshImagesAction"/>
+   <Action Class="DzAutoRefreshImagesAction"/>
+   <Separator/>
+   <Action Class="DzLoadUVSetAction"/>
+   <Action Class="DzEditMaterialSelectionSetsAction"/>
+   <Separator/>
+   <Action Class="DzTextureConvertorAction"/>
+   <Separator/>
+   <Action Class="DzShaderBakerPaneUseBakeAction"/>
+   <Action Class="DzShaderBakerPaneAutoBakeAction"/>
+   <Action Class="DzShaderBakerPaneRefreshBakeAction"/>
+   <Separator/>
+   <Action Class="DzShaderCompileAction"/>
+  </PaneMenu>
+  <PaneMenu Class="DzTimePane" Type="Custom" Version="3">
+   <Action Class="DzTimePaneAdvancedViewAction"/>
+   <Separator/>
+   <Action Class="DzTimePanePlayAllFramesAction"/>
+  </PaneMenu>
+  <PaneMenu Class="DzWidgetMapPane" Type="Custom" Version="0"/>
+  <PaneMenu Class="DzViewportMgrPane" Type="Custom" Version="1">
+   <Action Class="DzSingleViewAction"/>
+   <Action Class="DzSideBySideAction"/>
+   <Action Class="DzTopAndBottomAction"/>
+   <Action Class="DzFourViewsAction"/>
+   <Action Class="Dz2Right1LeftAction"/>
+   <Action Class="Dz2Top1BottomAction"/>
+   <Action Class="Dz2Left1RightAction"/>
+   <Action Class="Dz2Bottom1TopAction"/>
+   <Action Class="Dz3Right1LeftAction"/>
+   <Action Class="Dz3Top1BottomAction"/>
+   <Action Class="Dz3Left1RightAction"/>
+   <Action Class="Dz3Bottom1TopAction"/>
+   <Separator/>
+   <Action Class="DzFullScreenAction"/>
+   <Separator/>
+   <Action Class="DzPreviewLightsAction"/>
+  </PaneMenu>
+  <PaneMenu Class="DzAuxViewportPane" Type="Custom" Version="2">
+   <Action Class="DzAuxVPShowIPRToolBarAction"/>
+   <Separator/>
+   <Action Class="DzAuxVPSaveIPRRenderAction"/>
+   <Separator/>
+   <Action Class="DzAuxVPStopIPRRenderAction"/>
+   <Action Class="DzAuxVPStartIPRRenderAction"/>
+  </PaneMenu>
+  <PaneMenu Class="DzEnvironmentPane" Type="Custom" Version="1">
+   <Action Class="DzAdjustRenderAspectRatioToMatchBackdropTextureAction"/>
+   <Action Class="DzAdjustRenderDimensionsToMatchBackdropTextureAction"/>
+  </PaneMenu>
+  <PaneMenu Class="DzDrawSettingsPane" Type="Custom" Version="0">
+   <Action Class="DzDrawStartAction"/>
+   <Action Class="DzDrawStopAction"/>
+  </PaneMenu>
+  <PaneMenu Class="DzScriptPane" Type="Custom" Version="1">
+   <Action Class="DzResetScriptEngineAction"/>
+  </PaneMenu>
+  <PaneMenu Class="DzAlignPane" Type="Custom" Version="1">
+   <Action Class="DzAPResetAction"/>
+  </PaneMenu>
+  <PaneMenu Class="DzBatchConvertPane" Type="Custom" Version="0"/>
+  <PaneMenu Class="DzParametersPane" Type="Custom" Version="11">
+   <Action Class="DzParamConsolidatePropAction"/>
+   <Action Class="DzParamShowHiddenPropAction"/>
+   <Action Class="DzParamGroupExpansionModeAction"/>
+   <Separator/>
+   <Action Class="DzParamDisplaySeparateAction"/>
+   <Action Class="DzParamShowFollowersAction"/>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Copy复制">
+    <Action Class="DzCopyFigureAction"/>
+    <Separator/>
+    <Action Class="DzCopyNodeAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Paste粘贴">
+    <Action Class="DzPasteFigureAction"/>
+    <Action Class="DzPasteFigurePoseAction"/>
+    <Action Class="DzPasteFigureMorphAction"/>
+    <Separator/>
+    <Action Class="DzPasteNodeAction"/>
+    <Action Class="DzPasteNodePoseAction"/>
+    <Action Class="DzPasteNodeMorphAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Memorize记忆">
+    <Action Class="DzMemorizeFigureAction"/>
+    <Action Class="DzMemorizeFigurePoseAction"/>
+    <Action Class="DzMemorizeFigureShapeAction"/>
+    <Separator/>
+    <Action Class="DzMemorizeSelectedItemsAction"/>
+    <Action Class="DzMemorizePoseAction"/>
+    <Action Class="DzMemorizeShapeAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Restore恢复">
+    <Action Class="DzRestoreFigureAction"/>
+    <Action Class="DzRestoreFigurePoseAction"/>
+    <Action Class="DzRestoreFigureShapeAction"/>
+    <Separator/>
+    <Action Class="DzRestoreSelectedItemsAction"/>
+    <Action Class="DzRestorePoseAction"/>
+    <Action Class="DzRestoreShapeAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Zero零">
+    <Action Class="DzZeroFigureAction"/>
+    <Action Class="DzZeroFigurePoseAction"/>
+    <Action Class="DzZeroFigureShapeAction"/>
+    <Separator/>
+    <Action Class="DzZeroSelectedItemsAction"/>
+    <Action Class="DzZeroPoseAction"/>
+    <Action Class="DzZeroShapeAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Clear Animation清除动画">
+    <Action Class="DzClearKeysFigureAction"/>
+    <Action Class="DzClearKeysFigurePoseAction"/>
+    <Action Class="DzClearKeysFigureShapeAction"/>
+    <Separator/>
+    <Action Class="DzClearKeysSelectedItemsAction"/>
+    <Action Class="DzClearKeysPoseAction"/>
+    <Action Class="DzClearKeysShapeAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Limits限制">
+    <Action Class="DzLimitsOnAction"/>
+    <Action Class="DzLimitsOffAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Lock">
+    <Action Class="DzLockNodeAction"/>
+    <Action Class="DzLockPoseAction"/>
+    <Action Class="DzLockShapeAction"/>
+    <Separator/>
+    <Action Class="DzUnlockNodeAction"/>
+    <Action Class="DzUnlockPoseAction"/>
+    <Action Class="DzUnlockShapeAction"/>
+   </SubMenu>
+   <Separator/>
+   <Action Class="DzSymmetryAction"/>
+   <Action Class="DzBakeToTransformsAction"/>
+   <Separator/>
+   <Action Class="DzMoveToFloorAction"/>
+   <Separator/>
+   <Action Class="DzMorphFollowerAction"/>
+   <Separator/>
+   <Action Class="DzDefaultPropertyPresentationsAction"/>
+   <Separator/>
+   <Action Class="DzParamEditModeAction"/>
+   <Action Class="DzGroupToolAction"/>
+   <Separator/>
+  </PaneMenu>
+  <PaneMenu Class="DzPosingPane" Type="Custom" Version="8">
+   <Action Class="DzPSNGShowHiddenAction"/>
+   <Separator/>
+   <Action Class="DzPSNGDisplaySeparateAction"/>
+   <Action Class="DzPSNGShowFollowersAction"/>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Copy">
+    <Action Class="DzCopyFigureAction"/>
+    <Separator/>
+    <Action Class="DzCopyNodeAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Paste">
+    <Action Class="DzPasteFigurePoseAction"/>
+    <Separator/>
+    <Action Class="DzPasteNodePoseAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Memorize">
+    <Action Class="DzMemorizeFigurePoseAction"/>
+    <Separator/>
+    <Action Class="DzMemorizePoseAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Restore">
+    <Action Class="DzRestoreFigurePoseAction"/>
+    <Separator/>
+    <Action Class="DzRestorePoseAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Zero">
+    <Action Class="DzZeroFigurePoseAction"/>
+    <Separator/>
+    <Action Class="DzZeroPoseAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Clear Animation">
+    <Action Class="DzClearKeysFigurePoseAction"/>
+    <Separator/>
+    <Action Class="DzClearKeysPoseAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Limits">
+    <Action Class="DzLimitsOnAction"/>
+    <Action Class="DzLimitsOffAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Lock">
+    <Action Class="DzLockPoseAction"/>
+    <Separator/>
+    <Action Class="DzUnlockPoseAction"/>
+   </SubMenu>
+   <Separator/>
+   <Action Class="DzSymmetryAction"/>
+   <Action Class="DzBakeToTransformsAction"/>
+   <Separator/>
+   <Action Class="DzMoveToFloorAction"/>
+  </PaneMenu>
+  <PaneMenu Class="DzCamerasPane" Type="Custom" Version="5">
+   <Action Class="DzCMRSShowHiddenAction"/>
+   <Separator/>
+   <Action Class="DzCMRSSyncWithSceneAction"/>
+   <Separator/>
+   <Action Class="DzCopyNodeAction"/>
+   <Action Class="DzPasteNodePoseAction"/>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Delete">
+    <Action Class="DzDeleteAction"/>
+    <Action Class="DzDeleteAllCamerasAction"/>
+   </SubMenu>
+  </PaneMenu>
+  <PaneMenu Class="DzLightsPane" Type="Custom" Version="5">
+   <Action Class="DzLGHTSShowHiddenAction"/>
+   <Separator/>
+   <Action Class="DzLGHTSSyncWithSceneAction"/>
+   <Separator/>
+   <Action Class="DzCopyNodeAction"/>
+   <Action Class="DzPasteNodePoseAction"/>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Delete">
+    <Action Class="DzDeleteAction"/>
+    <Action Class="DzDeleteAllLightsAction"/>
+   </SubMenu>
+  </PaneMenu>
+  <PaneMenu Class="DzShapingPane" Type="Custom" Version="9">
+   <Action Class="DzSHPNGShowHiddenAction"/>
+   <Separator/>
+   <Action Class="DzSHPNGDisplaySeparateAction"/>
+   <Action Class="DzSHPNGShowFollowersAction"/>
+   <Action Class="DzSHPNGShowFlattenedNavigationAction"/>
+   <Action Class="DzSHPNGSyncNavigationAction"/>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Copy">
+    <Action Class="DzCopyFigureAction"/>
+    <Separator/>
+    <Action Class="DzCopyNodeAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Paste">
+    <Action Class="DzPasteFigureMorphAction"/>
+    <Separator/>
+    <Action Class="DzPasteNodeMorphAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Memorize">
+    <Action Class="DzMemorizeFigureShapeAction"/>
+    <Separator/>
+    <Action Class="DzMemorizeShapeAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Restore">
+    <Action Class="DzRestoreFigureShapeAction"/>
+    <Separator/>
+    <Action Class="DzRestoreShapeAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Zero">
+    <Action Class="DzZeroFigureShapeAction"/>
+    <Separator/>
+    <Action Class="DzZeroShapeAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Clear Animation">
+    <Action Class="DzClearKeysFigureShapeAction"/>
+    <Separator/>
+    <Action Class="DzClearKeysShapeAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Lock">
+    <Action Class="DzLockShapeAction"/>
+    <Separator/>
+    <Action Class="DzUnlockShapeAction"/>
+   </SubMenu>
+   <Separator/>
+   <Action Class="DzMorphFollowerAction"/>
+  </PaneMenu>
+  <PaneMenu Class="DzToolPane" Type="Custom" Version="0">
+   <Action Class="DzIKEnableIKAction"/>
+  </PaneMenu>
+  <PaneMenu Class="DzContentLibraryPane" Type="Custom" Version="17">
+   <Action Class="DzCLColumnViewAction"/>
+   <Action Class="DzCLTreeViewAction"/>
+   <Action Class="DzCLSideBySideViewAction"/>
+   <Separator/>
+   <Action Class="DzCLDeleteSelectedAssetAction"/>
+   <Separator/>
+   <Action Class="DzCLSearchHardDrivesAction"/>
+   <Action Class="DzCLScanKnownDirsAction"/>
+   <Action Class="DzCLDatabaseMigrationAction"/>
+   <Separator/>
+   <Action Class="DzCLDirectoryManagerAction"/>
+   <Action Class="DzCLImportMappedDirectoriesAction"/>
+   <Separator/>
+   <Action Class="DzContentDBEditorAction"/>
+   <Action Class="DzCLDatabaseMaintenanceAction"/>
+   <Action Class="DzCLExportProductMetadataAction"/>
+   <Separator/>
+   <Action Class="DzCLInstallOfflinePackagesAction"/>
+   <Separator/>
+   <Action Class="DzCLStopCMSAction"/>
+   <Action Class="DzCLStartCMSAction"/>
+   <Separator/>
+   <Action Class="DzCLCreatePoserCompanionFilesAction"/>
+   <Separator/>
+   <Action Class="DzCLEditPreferencesAction"/>
+  </PaneMenu>
+  <PaneMenu Class="DzDFormPane" Type="Custom" Version="0"/>
+  <PaneMenu Class="DzFigureSetupPane" Type="Custom" Version="7">
+   <Action Class="DzFSCopyFromFigureAction"/>
+   <Separator/>
+   <Action Class="DzFSLoadPresetAction"/>
+   <Action Class="DzFSSavePresetAction"/>
+   <Separator/>
+   <Action Class="DzFSLoadPHIAction"/>
+   <Separator/>
+   <Action Class="DzFSClearHierarchyAction"/>
+   <Separator/>
+   <Action Class="DzFSRegionEditorAction"/>
+  </PaneMenu>
+  <PaneMenu Class="OptClothPane" Type="Custom" Version="4">
+   <Action Class="OptFreezeAction"/>
+   <Separator/>
+   <Action Class="DzAutoRiggerInitializeAction"/>
+   <Action Class="DzAutoRiggerApplyAction"/>
+   <Action Class="DzAutoRiggerCleanUpAction"/>
+   <Separator/>
+   <Action Class="OptManageStylesAction"/>
+  </PaneMenu>
+  <PaneMenu Class="DzPropertyHierarchyPane" Type="Custom" Version="0"/>
+  <PaneMenu Class="DzPuppeteerPane" Type="Custom" Version="1">
+   <Action Class="DzPuppeteerPlayAudioAction"/>
+   <Action Class="DzPuppeteerFillFramesAction"/>
+   <Action Class="DzPuppeteerExtendFramesAction"/>
+   <Separator/>
+   <Action Class="DzPuppeteerZoomToFitAction"/>
+   <Action Class="DzPuppeteerCenterViewAction"/>
+   <Action Class="DzPuppeteerResetViewAction"/>
+   <Separator/>
+   <Action Class="DzPuppeteerAddLayerAction"/>
+   <Action Class="DzPuppeteerDeleteLayerAction"/>
+   <Action Class="DzPuppeteerRenameLayerAction"/>
+   <Action Class="DzPuppeteerClearLayerAction"/>
+   <Separator/>
+   <Action Class="DzPuppeteerClearLayerAnimationAction"/>
+   <Separator/>
+   <Action Class="DzPuppeteerDeletePoseAction"/>
+   <Action Class="DzPuppeteerUpdatePoseAction"/>
+  </PaneMenu>
+  <PaneMenu Class="DzRendAlbumPane" Type="Custom" Version="0">
+   <Action Class="DzRendAlbumPrefsIconSizeAction"/>
+   <Action Class="DzRendAlbumPrefsRendCntAction"/>
+   <Action Class="DzRendAlbumPrefsRendSizeAction"/>
+  </PaneMenu>
+  <PaneMenu Class="DzRenderLibraryPane" Type="Custom" Version="2">
+   <Action Class="DzRLDirectoryManagerAction"/>
+  </PaneMenu>
+  <PaneMenu Class="DzScriptedStepsPane" Type="Custom" Version="0"/>
+  <PaneMenu Class="DzShaderBuilder" Type="Custom" Version="2"/>
+  <PaneMenu Class="DzShaderBuilderPane" Type="Custom" Version="5">
+   <Action Class="DzSBResetShaderAction"/>
+   <Separator/>
+   <Action Class="DzSBRestoreShaderNetworksAction"/>
+  </PaneMenu>
+  <PaneMenu Class="DzRSLEditorPane" Type="Custom" Version="1">
+   <Action Class="DzREPCustomColorsAction"/>
+  </PaneMenu>
+  <PaneMenu Class="DzShaderMixerPane" Type="Custom" Version="4">
+   <Action Class="DzSMRefreshCustomAction"/>
+   <Action Class="DzSMBrowseCustomAction"/>
+   <Separator/>
+   <Action Class="DzMDLDirectoryManagerAction" Default="false"/>
+  </PaneMenu>
+  <PaneMenu Class="DzSmartContentPane" Type="Custom" Version="8">
+   <Action Class="DzSCStandardViewAction"/>
+   <Action Class="DzSCBasicViewAction"/>
+   <Separator/>
+   <Action Class="DzSCSyncPagesAction"/>
+   <Separator/>
+   <Action Class="DzCLDatabaseMaintenanceAction"/>
+   <Action Class="DzCLExportProductMetadataAction"/>
+   <Separator/>
+   <Action Class="DzCLInstallOfflinePackagesAction"/>
+   <Separator/>
+   <Action Class="DzCLStartCMSAction"/>
+   <Action Class="DzCLStopCMSAction"/>
+   <Separator/>
+  </PaneMenu>
+  <PaneMenu Class="DzSceneInfoPane" Type="Custom" Version="0"/>
+  <PaneMenu Class="DzMimicPane" Type="Custom" Version="1">
+   <Action Class="DzBrowseForMimicProAction"/>
+  </PaneMenu>
+  <PaneMenu Class="PowerPose" Type="Custom" Version="0"/>
+  <PaneMenu Class="aniMate" Type="Custom" Version="2">
+   <Action Class="aniMatePreferences"/>
+  </PaneMenu>
+  <PaneMenu Class="aniMate2Pane1" Type="Custom" Version="0"/>
+ </PaneMenus>
+ <PersistentMenus>
+  <PersistentMenu Class="DzStyledPropertyMenu" Type="Custom" Version="13">
+   <Action Class="DzStyledPropertyShowSettingsAction"/>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Favorites">
+    <Action Class="DzStyledPropertyAddFavoriteAction"/>
+    <Action Class="DzStyledPropertyRemoveFavoriteAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Lock">
+    <Action Class="DzStyledPropertyLockAction"/>
+    <Action Class="DzStyledPropertyUnlockAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Hidden">
+    <Action Class="DzStyledPropertyHideAction"/>
+    <Action Class="DzStyledPropertyUnhideAction"/>
+   </SubMenu>
+   <Separator/>
+   <Action Class="DzStyledPropertyResetAction"/>
+  </PersistentMenu>
+  <PersistentMenu Class="DzSurfacesPaneContextMenu" Type="Custom" Version="6">
+   <Action Class="DzCopyMaterialAction"/>
+   <Action Class="DzPasteMaterialAction"/>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Expand">
+    <Action Class="DzSRFExpandAllAction"/>
+    <Action Class="DzSRFExpandAllSelectedAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Collapse">
+    <Action Class="DzSRFCollapseAllAction"/>
+    <Action Class="DzSRFCollapseAllSelectedAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Lock">
+    <Action Class="DzSRFLockSelectedAction"/>
+    <Action Class="DzSRFUnLockSelectedAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Hidden">
+    <Action Class="DzSRFHideSelectedAction"/>
+    <Action Class="DzSRFUnHideSelectedAction"/>
+   </SubMenu>
+  </PersistentMenu>
+  <PersistentMenu Class="DzRenderSettingsPaneContextMenu" Type="Custom" Version="2">
+   <SubMenu Type="Custom" Label="Expand">
+    <Action Class="DzElementSideNavExpandAllAction"/>
+    <Action Class="DzElementSideNavExpandAllSelectedAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Collapse">
+    <Action Class="DzElementSideNavCollapseAllAction"/>
+    <Action Class="DzElementSideNavCollapseAllSelectedAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Favorites">
+    <Action Class="DzElementSideNavAddFavoriteSelectedAction"/>
+    <Action Class="DzElementSideNavRemoveFavoriteSelectedAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Lock">
+    <Action Class="DzElementSideNavLockSelectedAction"/>
+    <Action Class="DzElementSideNavUnLockSelectedAction"/>
+   </SubMenu>
+  </PersistentMenu>
+  <PersistentMenu Class="DzDrawSettingsPaneContextMenu" Type="Custom" Version="2">
+   <SubMenu Type="Custom" Label="Expand">
+    <Action Class="DzElementSideNavExpandAllAction"/>
+    <Action Class="DzElementSideNavExpandAllSelectedAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Collapse">
+    <Action Class="DzElementSideNavCollapseAllAction"/>
+    <Action Class="DzElementSideNavCollapseAllSelectedAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Favorites">
+    <Action Class="DzElementSideNavAddFavoriteSelectedAction"/>
+    <Action Class="DzElementSideNavRemoveFavoriteSelectedAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Lock">
+    <Action Class="DzElementSideNavLockSelectedAction"/>
+    <Action Class="DzElementSideNavUnLockSelectedAction"/>
+   </SubMenu>
+  </PersistentMenu>
+  <PersistentMenu Class="DzParametersPaneContextMenu" Type="Custom" Version="8">
+   <Action Class="DzParamEditModeAction"/>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Copy">
+    <Action Class="DzCopyFigureAction"/>
+    <Separator/>
+    <Action Class="DzCopyNodeAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Paste">
+    <Action Class="DzPasteFigureAction"/>
+    <Action Class="DzPasteFigurePoseAction"/>
+    <Action Class="DzPasteFigureShapeAction"/>
+    <Separator/>
+    <Action Class="DzPasteNodeAction"/>
+    <Action Class="DzPasteNodePoseAction"/>
+    <Action Class="DzPasteNodeShapeAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Expand">
+    <Action Class="DzSideNavExpandAllAction"/>
+    <Action Class="DzSideNavExpandAllSelectedAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Collapse">
+    <Action Class="DzSideNavCollapseAllAction"/>
+    <Action Class="DzSideNavCollapseAllSelectedAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Favorites">
+    <Action Class="DzSideNavAddFavoriteSelectedAction"/>
+    <Action Class="DzSideNavRemoveFavoriteSelectedAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Lock">
+    <Action Class="DzSideNavLockSelectedAction"/>
+    <Action Class="DzSideNavUnLockSelectedAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Hidden">
+    <Action Class="DzSideNavHideSelectedAction"/>
+    <Action Class="DzSideNavUnHideSelectedAction"/>
+   </SubMenu>
+   <Separator/>
+   <Action Class="DzSideNavClearPropertyNewAction"/>
+  </PersistentMenu>
+  <PersistentMenu Class="DzParametersPaneEditGroupContextMenu" Type="Custom" Version="7">
+   <Action Class="DzParamEditModeAction"/>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Copy">
+    <Action Class="DzCopyFigureAction"/>
+    <Separator/>
+    <Action Class="DzCopyNodeAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Paste">
+    <Action Class="DzPasteFigureAction"/>
+    <Action Class="DzPasteFigurePoseAction"/>
+    <Action Class="DzPasteFigureShapeAction"/>
+    <Separator/>
+    <Action Class="DzPasteNodeAction"/>
+    <Action Class="DzPasteNodePoseAction"/>
+    <Action Class="DzPasteNodeShapeAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Expand">
+    <Action Class="DzSideNavExpandAllAction"/>
+    <Action Class="DzSideNavExpandAllSelectedAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Collapse">
+    <Action Class="DzSideNavCollapseAllAction"/>
+    <Action Class="DzSideNavCollapseAllSelectedAction"/>
+   </SubMenu>
+  </PersistentMenu>
+  <PersistentMenu Class="DzParametersPaneEditPropertyContextMenu" Type="Custom" Version="9">
+   <Action Class="DzParamEditModeAction"/>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Copy">
+    <Action Class="DzCopyFigureAction"/>
+    <Separator/>
+    <Action Class="DzCopyNodeAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Paste">
+    <Action Class="DzPasteFigureAction"/>
+    <Action Class="DzPasteFigurePoseAction"/>
+    <Action Class="DzPasteFigureShapeAction"/>
+    <Separator/>
+    <Action Class="DzPasteNodeAction"/>
+    <Action Class="DzPasteNodePoseAction"/>
+    <Action Class="DzPasteNodeShapeAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Favorites">
+    <Action Class="DzSideNavAddFavoriteSelectedAction"/>
+    <Action Class="DzSideNavRemoveFavoriteSelectedAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Hidden">
+    <Action Class="DzSideNavHideSelectedAction"/>
+    <Action Class="DzSideNavUnHideSelectedAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="AutoFollow">
+    <Action Class="DzSideNavCanAutoFollowSelectedAction"/>
+    <Action Class="DzSideNavCannotAutoFollowSelectedAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Limits">
+    <Action Class="DzSideNavLimitsOnSelectedAction"/>
+    <Action Class="DzSideNavLimitsOffSelectedAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Lock">
+    <Action Class="DzSideNavLockSelectedAction"/>
+    <Action Class="DzSideNavUnLockSelectedAction"/>
+   </SubMenu>
+  </PersistentMenu>
+  <PersistentMenu Class="DzPosingPaneContextMenu" Type="Custom" Version="7">
+   <SubMenu Type="Custom" Label="Copy">
+    <Action Class="DzCopyFigureAction"/>
+    <Separator/>
+    <Action Class="DzCopyNodeAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Paste">
+    <Action Class="DzPasteFigurePoseAction"/>
+    <Separator/>
+    <Action Class="DzPasteNodePoseAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Expand">
+    <Action Class="DzSideNavExpandAllAction"/>
+    <Action Class="DzSideNavExpandAllSelectedAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Collapse">
+    <Action Class="DzSideNavCollapseAllAction"/>
+    <Action Class="DzSideNavCollapseAllSelectedAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Favorites">
+    <Action Class="DzSideNavAddFavoriteSelectedAction"/>
+    <Action Class="DzSideNavRemoveFavoriteSelectedAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Lock">
+    <Action Class="DzSideNavLockSelectedAction"/>
+    <Action Class="DzSideNavUnLockSelectedAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Hidden">
+    <Action Class="DzSideNavHideSelectedAction"/>
+    <Action Class="DzSideNavUnHideSelectedAction"/>
+   </SubMenu>
+   <Separator/>
+   <Action Class="DzSideNavClearPropertyNewAction"/>
+  </PersistentMenu>
+  <PersistentMenu Class="DzCamerasPaneContextMenu" Type="Custom" Version="7">
+   <Action Class="DzCopyNodeAction"/>
+   <Action Class="DzPasteNodeAction"/>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Delete">
+    <Action Class="DzDeleteAction"/>
+    <Action Class="DzDeleteAllCamerasAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Expand">
+    <Action Class="DzSideNavExpandAllAction"/>
+    <Action Class="DzSideNavExpandAllSelectedAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Collapse">
+    <Action Class="DzSideNavCollapseAllAction"/>
+    <Action Class="DzSideNavCollapseAllSelectedAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Favorites">
+    <Action Class="DzSideNavAddFavoriteSelectedAction"/>
+    <Action Class="DzSideNavRemoveFavoriteSelectedAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Lock">
+    <Action Class="DzSideNavLockSelectedAction"/>
+    <Action Class="DzSideNavUnLockSelectedAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Hidden">
+    <Action Class="DzSideNavHideSelectedAction"/>
+    <Action Class="DzSideNavUnHideSelectedAction"/>
+   </SubMenu>
+   <Separator/>
+   <Action Class="DzSideNavClearPropertyNewAction"/>
+  </PersistentMenu>
+  <PersistentMenu Class="DzLightsPaneContextMenu" Type="Custom" Version="7">
+   <Action Class="DzCopyNodeAction"/>
+   <Action Class="DzPasteNodeAction"/>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Delete">
+    <Action Class="DzDeleteAction"/>
+    <Action Class="DzDeleteAllLightsAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Expand">
+    <Action Class="DzSideNavExpandAllAction"/>
+    <Action Class="DzSideNavExpandAllSelectedAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Collapse">
+    <Action Class="DzSideNavCollapseAllAction"/>
+    <Action Class="DzSideNavCollapseAllSelectedAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Favorites">
+    <Action Class="DzSideNavAddFavoriteSelectedAction"/>
+    <Action Class="DzSideNavRemoveFavoriteSelectedAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Lock">
+    <Action Class="DzSideNavLockSelectedAction"/>
+    <Action Class="DzSideNavUnLockSelectedAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Hidden">
+    <Action Class="DzSideNavHideSelectedAction"/>
+    <Action Class="DzSideNavUnHideSelectedAction"/>
+   </SubMenu>
+   <Separator/>
+   <Action Class="DzSideNavClearPropertyNewAction"/>
+  </PersistentMenu>
+  <PersistentMenu Class="DzShapingPaneContextMenu" Type="Custom" Version="7">
+   <SubMenu Type="Custom" Label="Copy">
+    <Action Class="DzCopyFigureAction"/>
+    <Separator/>
+    <Action Class="DzCopyNodeAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Paste">
+    <Action Class="DzPasteFigureShapeAction"/>
+    <Separator/>
+    <Action Class="DzPasteNodeShapeAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Expand">
+    <Action Class="DzSideNavExpandAllAction"/>
+    <Action Class="DzSideNavExpandAllSelectedAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Collapse">
+    <Action Class="DzSideNavCollapseAllAction"/>
+    <Action Class="DzSideNavCollapseAllSelectedAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Favorites">
+    <Action Class="DzSideNavAddFavoriteSelectedAction"/>
+    <Action Class="DzSideNavRemoveFavoriteSelectedAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Lock">
+    <Action Class="DzSideNavLockSelectedAction"/>
+    <Action Class="DzSideNavUnLockSelectedAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Hidden">
+    <Action Class="DzSideNavHideSelectedAction"/>
+    <Action Class="DzSideNavUnHideSelectedAction"/>
+   </SubMenu>
+   <Separator/>
+   <Action Class="DzSideNavClearPropertyNewAction"/>
+  </PersistentMenu>
+  <PersistentMenu Class="DzPropertyHierarchyPaneContextMenu" Type="Custom" Version="0"/>
+ </PersistentMenus>
+ <ViewToolMenus>
+  <ToolMenu Class="DzPickTool" Type="Custom" Version="0">
+   <SubMenu Type="Custom" Label="Edit">
+    <Action Class="DzHPPresentationEditorAction"/>
+    <Action Class="DzHPSceneIDEditorAction"/>
+    <Separator/>
+    <Action Class="DzSubDAction"/>
+    <Action Class="DzTriangulateAction"/>
+    <Action Class="DzDynLodAction"/>
+    <Separator/>
+    <Action Class="DzConvertFigureAction"/>
+    <Action Class="DzConvertLocalMapsToGeneralAction"/>
+    <Action Class="DzConvertGeneralMapsToLocalAction"/>
+    <Separator/>
+    <Action Class="DzMeshSmoothAction"/>
+    <Action Class="DzRemoveMeshSmoothAction"/>
+    <Action Class="DzMeshSmoothResetBaseAction"/>
+    <Action Class="DzMeshSmoothMorphBakerAction"/>
+    <Separator/>
+    <Action Class="DzPushModifierAction"/>
+    <Action Class="DzRemovePushModifierAction"/>
+    <Separator/>
+    <Action Class="DzGeomReplaceAction"/>
+    <Action Class="DzUpdateGeometryAction"/>
+    <Separator/>
+    <Action Class="DzCurveMeshAction"/>
+   </SubMenu>
+  </ToolMenu>
+  <ToolMenu Class="DzSceneNavigatorTool" Type="Custom" Version="5">
+   <Action Class="DzViewControlKeyNavAction"/>
+   <Separator/>
+   <Action Class="DzDollyCameraUpAction"/>
+   <Action Class="DzDollyCameraDownAction"/>
+   <Action Class="DzDollyCameraForwardAction"/>
+   <Action Class="DzDollyCameraBackAction"/>
+   <Action Class="DzDollyCameraLeftAction"/>
+   <Action Class="DzDollyCameraRightAction"/>
+   <Separator/>
+   <Action Class="DzIncreaseCameraDollyFactorAction"/>
+   <Action Class="DzDecreaseCameraDollyFactorAction"/>
+   <Action Class="DzResetCameraDollyFactorAction"/>
+   <Separator/>
+   <Action Class="DzRotateCameraUpAction"/>
+   <Action Class="DzRotateCameraDownAction"/>
+   <Action Class="DzRotateCameraLeftAction"/>
+   <Action Class="DzRotateCameraRightAction"/>
+   <Action Class="DzBankCameraLeftAction"/>
+   <Action Class="DzBankCameraRightAction"/>
+   <Separator/>
+   <Action Class="DzIncreaseCameraRotateFactorAction"/>
+   <Action Class="DzDecreaseCameraRotateFactorAction"/>
+   <Action Class="DzResetCameraRotateFactorAction"/>
+   <Separator/>
+   <Action Class="DzLevelCameraRotateAction"/>
+   <Separator/>
+   <Action Class="DzIncreaseCameraLevelFactorAction"/>
+   <Action Class="DzDecreaseCameraLevelFactorAction"/>
+   <Action Class="DzResetCameraLevelFactorAction"/>
+   <Separator/>
+   <Action Class="DzLevelCameraSnapAction"/>
+   <Separator/>
+   <Action Class="DzFrameCameraAction"/>
+   <Action Class="DzAimCameraAction"/>
+   <Action Class="DzResetCameraAction"/>
+  </ToolMenu>
+  <ToolMenu Class="DzUniversalTool" Type="Custom" Version="2">
+   <Action Class="DzIKEnableIKAction"/>
+  </ToolMenu>
+  <ToolMenu Class="DzUniversalTranslateTool" Type="Custom" Version="2">
+   <Action Class="DzIKEnableIKAction"/>
+  </ToolMenu>
+  <ToolMenu Class="DzUniversalRotateTool" Type="Custom" Version="2">
+   <Action Class="DzIKEnableIKAction"/>
+  </ToolMenu>
+  <ToolMenu Class="DzUniversalScaleTool" Type="Custom" Version="2">
+   <Action Class="DzIKEnableIKAction"/>
+  </ToolMenu>
+  <ToolMenu Class="DzMaterialPickTool" Type="Custom" Version="0"/>
+  <ToolMenu Class="DzRegionNavigatorTool" Type="Custom" Version="0"/>
+  <ToolMenu Class="DzJointEditorTool" Type="Custom" Version="28">
+   <Action Class="DzJECustomColorsAction"/>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Create">
+    <Action Class="DzJEToggleViewBoneCreationAction"/>
+    <Separator/>
+    <Action Class="DzJECreateDonorFigureAction"/>
+    <Separator/>
+    <Action Class="DzJECreateBoneAction"/>
+    <Action Class="DzJECreateSiblingBoneAction"/>
+    <Action Class="DzJECreateControlBonesAction"/>
+    <Separator/>
+    <Action Class="DzJESplitBoneAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Edit">
+    <Action Class="DzJETogglePropagateTranslationAction"/>
+    <Separator/>
+    <Action Class="DzJEConvertPropToFigureAction"/>
+    <Action Class="DzJEConvertFigureToPropAction"/>
+    <Separator/>
+    <Action Class="DzJERenameNodeAction"/>
+    <Action Class="DzJEReparentBoneAction"/>
+    <Action Class="DzJEReplaceGeometryAction"/>
+    <Separator/>
+    <Action Class="DzJEMirrorAction"/>
+    <Separator/>
+    <Action Class="DzJEBakeRotationsAction"/>
+    <Separator/>
+    <Action Class="DzJETransferWSRiggingAction"/>
+    <Separator/>
+    <Action Class="DzMVCCageAdjustRigToShapeAction"/>
+    <Separator/>
+    <Action Class="DzJESelectedNodesAttributesEditAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Delete">
+    <Action Class="DzJEDeleteBoneAction"/>
+    <Action Class="DzJEDeleteUnusedBonesAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Align">
+    <Action Class="DzJEToggleAutoAlignNodeAction"/>
+    <Separator/>
+    <Action Class="DzJEAlignNodeAction"/>
+    <Action Class="DzJEAlignAllBonesAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Snap">
+    <Action Class="DzJESnapCenterPointAction"/>
+    <Action Class="DzJESnapEndPointAction"/>
+    <Separator/>
+    <Action Class="DzJEToggleAutoSnapEndPointsAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Memorize">
+    <Action Class="DzJEMemorizeFigureRiggingPropertiesAction"/>
+    <Separator/>
+    <Action Class="DzJEMemorizeNodeRiggingPropertiesAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Restore">
+    <Action Class="DzJERestoreFigureRiggingPropertiesAction"/>
+    <Separator/>
+    <Action Class="DzJERestoreNodeRiggingPropertiesAction"/>
+   </SubMenu>
+  </ToolMenu>
+  <ToolMenu Class="DzPolygonGroupEditorTool" Type="Custom" Version="21">
+   <SubMenu Type="Custom" Label="Selection Mode">
+    <Action Class="DzFacetRectangleSelectionAction"/>
+    <Action Class="DzFacetLassoSelectionAction"/>
+    <Action Class="DzFacetDragSelectionAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Geometry Selection">
+    <SubMenu Type="Custom" Label="Convert Selection">
+     <Action Class="DzFacetSelConvertToFacetSelectionAction"/>
+     <Action Class="DzFacetSelConvertToEdgeSelectionAction"/>
+     <Action Class="DzFacetSelConvertToVertexSelectionAction"/>
+    </SubMenu>
+    <Separator/>
+    <Action Class="DzFacetSelAllAction"/>
+    <Action Class="DzFacetSelClearAction"/>
+    <Separator/>
+    <Action Class="DzFacetSelInvertAction"/>
+    <Separator/>
+    <Action Class="DzFacetSelGrowAction"/>
+    <Action Class="DzFacetSelShrinkAction"/>
+    <Action Class="DzFacetSelConnectedAction"/>
+    <Action Class="DzFacetSelFacetLoopAction"/>
+    <Action Class="DzFacetSelBoundaryAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Geometry Visibility">
+    <Action Class="DzFacetHideSelectedAction"/>
+    <Action Class="DzFacetHideUnSelectedAction"/>
+    <Separator/>
+    <Action Class="DzFacetHideAllAction"/>
+    <Action Class="DzFacetShowAllAction"/>
+    <Separator/>
+    <Action Class="DzFacetHideInvertAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Geometry Locking">
+    <Action Class="DzFacetLockSelectedAction"/>
+    <Separator/>
+    <Action Class="DzFacetLockAllAction"/>
+    <Action Class="DzFacetUnlockAllAction"/>
+    <Separator/>
+    <Action Class="DzFacetLockInvertAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Geometry Editing">
+    <Action Class="DzPGMergeFollowerFacetsAction"/>
+    <Separator/>
+    <Action Class="DzFacetSelReverseWindingOrderAction"/>
+    <Action Class="DzPGDeleteHiddenFacetsAction"/>
+    <Action Class="DzPGDeleteUnusedVerticesAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Geometry Assignment">
+    <Action Class="DzPGECreateFaceGroupAction"/>
+    <Action Class="DzPGECreateFaceGroupFromSelectionAction"/>
+    <Separator/>
+    <Action Class="DzPGECreateMaterialGroupAction"/>
+    <Action Class="DzPGECreateMaterialGroupFromSelectionAction"/>
+    <Separator/>
+    <Action Class="DzPGECreateRegionGroupAction"/>
+    <Action Class="DzPGECreateRegionGroupFromSelectionAction"/>
+    <Separator/>
+    <Action Class="DzFSRegionEditorAction"/>
+    <Separator/>
+    <Action Class="DzPGECreateSelectionGroupAction"/>
+    <Action Class="DzPGECreateSelectionGroupFromSelectionAction"/>
+    <Separator/>
+    <Action Class="DzPGECreateRigidityGroupAction"/>
+    <Action Class="DzPGECreateRigidityGroupFromSelectionAction"/>
+    <Separator/>
+    <Action Class="DzPGEditRigidityGroupsAction"/>
+    <Separator/>
+    <Action Class="DzPGECreateRigidFollowNodeFromSelectionAction"/>
+    <Action Class="DzPGESetRigidFollowReferenceAction"/>
+    <Separator/>
+    <Action Class="DzPGESetGraftTargetFacesAction"/>
+    <Action Class="DzPGESetAutoHideFacesAction"/>
+   </SubMenu>
+  </ToolMenu>
+  <ToolMenu Class="DzSpotRenderTool" Type="Custom" Version="0"/>
+  <ToolMenu Class="DzNodeWeightBrushTool" Type="Custom" Version="47">
+   <SubMenu Type="Custom" Label="Brush Falloff">
+    <Action Class="Dz3DBrushLinearAction"/>
+    <Action Class="Dz3DBrushEaseInAction"/>
+    <Action Class="Dz3DBrushEaseOutAction"/>
+    <Action Class="Dz3DBrushEaseInOutAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Gradient Falloff">
+    <Action Class="Dz3DBrushGradLinearAction"/>
+    <Action Class="Dz3DBrushGradEaseInAction"/>
+    <Action Class="Dz3DBrushGradEaseOutAction"/>
+    <Action Class="Dz3DBrushGradEaseInOutAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Gradient Handles">
+    <Action Class="Dz3DBrushGrad2Action"/>
+    <Action Class="Dz3DBrushGrad3Action"/>
+    <Action Class="Dz3DBrushGrad4Action"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Gradient Editing">
+    <Action Class="Dz3DBrushGradientSnapAction"/>
+    <Action Class="Dz3DBrushGradientFlipAction"/>
+    <Action Class="Dz3DBrushGradientApplyAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Selection Mode">
+    <Action Class="DzFacetRectangleSelectionAction"/>
+    <Action Class="DzFacetLassoSelectionAction"/>
+    <Action Class="DzFacetDragSelectionAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Geometry Selection">
+    <SubMenu Type="Custom" Label="Convert Selection">
+     <Action Class="DzFacetSelConvertToFacetSelectionAction"/>
+     <Action Class="DzFacetSelConvertToEdgeSelectionAction"/>
+     <Action Class="DzFacetSelConvertToVertexSelectionAction"/>
+    </SubMenu>
+    <Separator/>
+    <Action Class="DzFacetSelAllAction"/>
+    <Action Class="DzFacetSelClearAction"/>
+    <Separator/>
+    <Action Class="DzFacetSelInvertAction"/>
+    <Separator/>
+    <Action Class="DzFacetSelGrowAction"/>
+    <Action Class="DzFacetSelShrinkAction"/>
+    <Action Class="DzFacetSelConnectedAction"/>
+    <Action Class="DzFacetSelFacetLoopAction"/>
+    <Action Class="DzFacetSelBoundaryAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Geometry Visibility">
+    <Action Class="DzFacetHideSelectedAction"/>
+    <Action Class="DzFacetHideUnSelectedAction"/>
+    <Separator/>
+    <Action Class="DzFacetHideAllAction"/>
+    <Action Class="DzFacetShowAllAction"/>
+    <Separator/>
+    <Action Class="DzFacetHideInvertAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Geometry Locking">
+    <Action Class="DzFacetLockSelectedAction"/>
+    <Separator/>
+    <Action Class="DzFacetLockAllAction"/>
+    <Action Class="DzFacetUnlockAllAction"/>
+    <Separator/>
+    <Action Class="DzFacetLockInvertAction"/>
+   </SubMenu>
+   <Separator/>
+   <SubMenu Type="Custom" Label="Weight Display">
+    <Action Class="DzWeightMapBrushColorsAction"/>
+    <Separator/>
+    <Action Class="DzWeightMapBrushDisplayOffAction"/>
+    <Action Class="DzWeightMapBrushDisplayPointsAction"/>
+    <Action Class="DzWeightMapBrushDisplayValueAction"/>
+    <Action Class="DzWeightMapBrushDisplayBoolAction"/>
+    <Separator/>
+    <Action Class="DzShowChildrenNodeWeightsAction"/>
+   </SubMenu>
+   <SubMenu Type="Custom" Label="Weight Editing">
+    <Action Class="DzCopyNodeWeightMapsAction"/>
+    <Separator/>
+    <Action Class="DzWeightMapBrushCopyAction"/>
+    <Action Class="DzWeightMapBrushPasteAction"/>
+    <Separator/>
+    <Action Class="DzWeightMapBrushFillAction"/>
+    <Action Class="DzWeightMapBrushSmoothAction"/>
+    <Action Class="DzWeightMapBrushAttenuateAction"/>
+    <Separator/>
+    <Action Class="DzNodeWeightBySelectionSetAction"/>
+    <Action Class="DzFilterNodeWeightAction"/>
+    <Action Class="DzNodeWeightNormalizeAction"/>
+    <Separator/>
+    <Action Class="DzNodeWeightSymAction"/>
+    <Separator/>
+    <SubMenu Type="Custom" Label="Weight Conversion">
+     <Action Class="DzConvertLocalMapsToGeneralAction"/>
+     <Action Class="DzConvertGeneralMapsToLocalAction"/>
+     <Action Class="DzConvertToBlendedLocalGeneralAction"/>
+    </SubMenu>
+    <Separator/>
+    <SubMenu Type="Custom" Label="Clear Weight">
+     <Action Class="DzClearGeneralWeightsAction"/>
+     <Action Class="DzClearLocalWeightsAction"/>
+     <Action Class="DzClearScaleWeightsAction"/>
+    </SubMenu>
+    <Separator/>
+   </SubMenu>
+  </ToolMenu>
+  <ToolMenu Class="DzEasyPosingTool" Type="Custom" Version="0"/>
+  <ToolMenu Class="aniMate2ViewTool" Type="Custom" Version="0"/>
+ </ViewToolMenus>
+</DAZStudioActionMgr>
